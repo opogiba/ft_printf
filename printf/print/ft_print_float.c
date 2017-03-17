@@ -64,13 +64,24 @@ char	*ft_print_float(char *string, t_arg *func, long double nbr)
 		ft_round(nbr - (long double)exponenta, func, finish);
 //	if((int)ft_strlen(finish) != func->acc)
 //		ft_check_len((int)ft_strlen(finish), func->acc, finish);
-	string = ft_dot_to_float(string, func);
+//	string = ft_dot_to_float(string, func);
 //	tmp = finish;
 	finish = ft_strjoin(string, finish);
 //	free(string);
 //	free(tmp);
 	return (finish);
 }
+
+
+
+
+
+
+
+
+
+
+
 //
 //char	*ft_print_float(char *string, t_arg *func, long double nbr)
 //{
