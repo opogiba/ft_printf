@@ -33,7 +33,7 @@ char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr)
 
 
 	string = ft_print_exponent_double(string, func, nbr);
-	func->acc = acc;
+//	func->acc = acc;
 
 	if(string == NULL)
 	{

@@ -81,6 +81,10 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 		nbr = ft_r_nbr(nbr);
 	if (func->chr == 'G' || func->chr == 'g')
 		return (ft_check_g(count, string, func, nbr));
+	string = ft_do_exponent_string(nbr, func, count);
+	return (string);
+}
+
 //	if (func->acc_ex == 1 && func->acc == 0)
 //		nbr = ft_r_nbr(nbr);
 //	if (func->chr == 'G' || func->chr == 'g')
@@ -92,6 +96,3 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 //		}
 //		else
 //			return (NULL);
-	string = ft_do_exponent_string(nbr, func, count);
-	return (string);
-}
