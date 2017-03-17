@@ -30,8 +30,9 @@ char	*ft_get_double(char *string, t_arg *func, va_list args)
 		string = ft_print_exponent_double(string, func, nbr);
 	else if (func->chr == 'g' || func->chr == 'G')
 		string = ft_print_float_or_exponent(string, func, nbr);
-	if (func->f_plus == 1 || func->f_space == 1)
-		string = ft_join_prefix(string, func, minus, 0);
+	else if (func->chr == 'a' || func->chr == 'A')
+		string = ft_print_float_or_exponent(string, func, nbr);
+	string = ft_width_int(func, string, minus, (int)ft_strlen(string));
 	return (string);
 }
 
@@ -48,10 +49,10 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 	string = ft_get_double(string, func, args);
 	if (func->f_apos == 1)
 		string = ft_put_apostrophe(string, func);
-	if	(func->f_minus == 1)
-		string = ft_join_symbols(func, string, func->width - (int)ft_strlen(string), ' ');
-	else if	(func->f_zero == 1)
-		string = ft_join_symbols(func, string, func->width - (int)ft_strlen(string), '0');
+
+
+
+
 	ft_print(string, form);
 	free(string);
 }
