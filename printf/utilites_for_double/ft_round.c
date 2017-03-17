@@ -155,6 +155,7 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 		i++;
 		p--;
 	}
+	str[i] = '\0';
 	char *string;
 	string = ft_itoa_base(nbr_l, 10);
 	str = ft_strjoin(str, string);
