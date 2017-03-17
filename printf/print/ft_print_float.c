@@ -55,7 +55,7 @@ char	*ft_print_float(char *string, t_arg *func, long double nbr)
 	finish = (char *) malloc(sizeof(char) * (func->acc + exponenta) + 1);
 //	finish[func->acc] = '\0';
 //	nbr_to_str(exponenta, 10, &finish);
-//	add_dot(&finish);
+
 
 
 	if(func->acc > 0 && func->acc <= 15)
@@ -66,6 +66,7 @@ char	*ft_print_float(char *string, t_arg *func, long double nbr)
 //		ft_check_len((int)ft_strlen(finish), func->acc, finish);
 //	string = ft_dot_to_float(string, func);
 //	tmp = finish;
+	add_dot(&finish);
 	finish = ft_strjoin(string, finish);
 //	free(string);
 //	free(tmp);
