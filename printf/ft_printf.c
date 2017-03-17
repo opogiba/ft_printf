@@ -86,7 +86,7 @@ int		ft_printf(const char *format, ...)
 ////	printf("%.8g\n",1234567.9);
 ////	printf("%D\n", LONG_MAX);
 ////	ft_printf("%D\n", LONG_MAX);
-//	printf("%e\n", 0.503);
-//	ft_printf("%e", 0.503);
+//	printf("%.2G\n", 42.42);
+//	ft_printf("%.2G", 42.42);
 //	return (0);
 //}
