@@ -65,11 +65,8 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 
 	i = 0;
 	p = func->acc;
-	while (p > 0)
-	{
+	while (p > 0 && p-- > 0)
 		nbr *= 10;
-		p--;
-	}
 	nbr_l = ft_r_nbr(nbr);
 	p = func->acc - ft_nbrlen(nbr_l, 10);
 	while (p > 0)
