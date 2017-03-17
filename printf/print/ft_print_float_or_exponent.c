@@ -15,12 +15,12 @@ char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr)
 		string =ft_del_zero(string, func);
 		return (string);
 	}
-	if(len > acc)
-	{
-		func->base = 11;
-		string = ft_print_exponent_double(string, func, nbr);
-		return (string);
-	}
+//	if(len > acc)
+//	{
+//		func->base = 11;
+//		string = ft_print_exponent_double(string, func, nbr);
+//		return (string);
+//	}
 
 
 
