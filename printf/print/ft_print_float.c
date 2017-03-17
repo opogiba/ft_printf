@@ -22,8 +22,6 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 	if (func->acc_ex == 1 && func->acc == 0)
 		nbr = ft_r_nbr(nbr);
 	exponenta = (long long)nbr;
-	if((long double)exponenta < nbr)
-		nbr = ft_r_nbr(nbr);
 	string1 = ft_utoa_base(exponenta,10,func);
 	string2 = (char *)malloc(sizeof(char) * func->acc + 1);
 	if(func->acc > 0 && func->acc <= 15)
