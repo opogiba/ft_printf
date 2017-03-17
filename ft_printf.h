@@ -69,6 +69,8 @@ typedef struct s_format
 
 }				t_format;
 
+void	ft_check_percent(t_format *form, t_arg *func, va_list args, va_list tmp);
+
 void				ft_clean(t_arg *func);
 char				**ft_print_color(void);
 char				**ft_choose_color(void);
