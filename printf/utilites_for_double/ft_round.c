@@ -135,9 +135,10 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 	int			p;
 	long long	nbr_l;
 	int i;
+	char *string;
+	char *tmp;
 
 	i = 0;
-
 	p = func->acc;
 	while (p > 0)
 	{
@@ -153,8 +154,10 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 		p--;
 	}
 	str[i] = '\0';
-	char *string;
+	tmp = str;
 	string = ft_itoa_base(nbr_l, 10);
 	str = ft_strjoin(str, string);
+	free(tmp);
+	free(string);
 	return (str);
 }
