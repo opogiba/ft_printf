@@ -74,8 +74,7 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 	p = func->acc - ft_nbrlen(nbr_l, 10);
 	while (p > 0)
 	{
-		str[i] = '0';
-		i++;
+		str[i++] = '0';
 		p--;
 	}
 	str[i] = '\0';

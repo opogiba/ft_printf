@@ -50,10 +50,10 @@ char	*ft_do_exponent_string(long double nbr, t_arg *func, int count)
 //		if (finish[k] == '.')
 //			finish[k] = '\0';
 //	}
-//	tmp = finish;
+	tmp = finish;
 	finish = ft_strjoin(finish, second_part);
-//	free(tmp);
-//	free(second_part);
+	free(tmp);
+	free(second_part);
 	return (finish);
 }
 
