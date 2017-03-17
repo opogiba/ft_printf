@@ -41,15 +41,15 @@ char	*ft_do_exponent_string(long double nbr, t_arg *func, int count)
 	second_part = ft_itoa_base(k, 10);
 	second_part = ft_sec_part_exp(second_part, func, count);
 	finish = ft_print_float(finish, func, nbr);
-	if ((func->chr == 'G' || func->chr == 'g') && func->f_hash == 0)
-	{
-		k = (int)ft_strlen(finish);
-		k = k - 1;
-		while (finish[k] == '0')
-			finish[k--] = '\0';
-		if (finish[k] == '.')
-			finish[k] = '\0';
-	}
+//	if ((func->chr == 'G' || func->chr == 'g') && func->f_hash == 0)
+//	{
+//		k = (int)ft_strlen(finish);
+//		k = k - 1;
+//		while (finish[k] == '0')
+//			finish[k--] = '\0';
+//		if (finish[k] == '.')
+//			finish[k] = '\0';
+//	}
 	tmp = finish;
 	finish = ft_strjoin(finish, second_part);
 	free(tmp);
@@ -77,10 +77,10 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 		nbr = nbr / 10;
 		exponent = (unsigned long long)nbr;
 	}
-	if (func->acc_ex == 1 && func->acc == 0)
-		nbr = ft_r_nbr(nbr);
-	if (func->chr == 'G' || func->chr == 'g')
-		return (ft_check_g(count, string, func, nbr));
+//	if (func->acc_ex == 1 && func->acc == 0)
+//		nbr = ft_r_nbr(nbr);
+//	if (func->chr == 'G' || func->chr == 'g')
+//		return (ft_check_g(count, string, func, nbr));
 	string = ft_do_exponent_string(nbr, func, count);
 	return (string);
 }

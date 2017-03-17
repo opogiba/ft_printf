@@ -116,7 +116,7 @@ long double			ft_ceil(long double nbr);
 long double			ft_floor(long double nbr);
 long double			ft_r_nbr(long double nbr);
 char				*ft_round(long double nbr, t_arg *func, char *str);
-char				*ft_round_d(long double nbr, t_arg *func, char *str);
+//char				*ft_round_d(long double nbr, t_arg *func, char *str);
 int					ft_nbrlen(unsigned long long i, unsigned long long base);
 char 				*ft_dot_to_float(char *string, t_arg *func);
 char 				*ft_check_len(int len1, int len2, char *finish);
@@ -126,3 +126,5 @@ char 	*ft_do_exponent_string(long double nbr, t_arg *func, int count);
 char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
 void	nbr_to_str(unsigned long long value, unsigned long long base,
 				   char **str);
+
+void		ft_round_d(long double nbr, t_arg *func, char *str)
