@@ -50,7 +50,7 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 		string = ft_put_apostrophe(string, func);
 	if	(func->f_minus == 1)
 		string = ft_join_symbols(func, string, func->width - (int)ft_strlen(string), ' ');
-	else if	(func->f_minus == 1)
+	else if	(func->f_space == 1)
 		string = ft_join_symbols(func, string, func->width - (int)ft_strlen(string), '0');
 	ft_print(string, form);
 	free(string);
