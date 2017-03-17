@@ -45,7 +45,7 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 	string1 = ft_utoa_base(exponenta,10,func);
 	string2 = (char *)malloc(sizeof(char) * func->acc + 1);
 	if(func->acc > 0 && func->acc <= 15)
-		ft_round(nbr - (long double)exponenta, func, string2);
+		ft_round_d(nbr - (long double)exponenta, func, string2);
 	else if(func->acc == 0 && func->acc > 15)
 		ft_round(nbr - (long double)exponenta, func, string2);
 	string1 = ft_dot_to_float(string1, func);
