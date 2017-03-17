@@ -27,8 +27,6 @@ void	ft_parsing_specifier(t_arg *func, unsigned long long nbr)
 		func->len = L;
 		func->chr = 'c';
 	}
-	if (func->chr == 'D' || func->chr == 'U' || func->chr == 'O')
-		func->len = L;
 	if (func->f_plus == 1)
 		func->f_space = 0;
 	if (func->f_minus == 1 || func->acc_ex == 1)

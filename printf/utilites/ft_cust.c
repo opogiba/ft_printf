@@ -16,6 +16,8 @@ unsigned long long	ft_cust_uxo(t_arg *func, va_list args)
 {
 	unsigned long long	nbr;
 
+	if (func->chr == 'U' || func->chr == 'O')
+		func->len = L;
 	if (func->len == L)
 		nbr = va_arg(args, unsigned long int);
 	else if (func->len == LL)
@@ -37,6 +39,8 @@ long long			ft_cust_id(t_arg *func, va_list args)
 {
 	long long nbr;
 
+	if (func->chr == 'D')
+		func->len = L;
 	if (func->len == L)
 		nbr = va_arg(args, long int);
 	else if (func->len == LL)
@@ -51,5 +55,7 @@ long long			ft_cust_id(t_arg *func, va_list args)
 		nbr = va_arg(args, size_t);
 	else
 		nbr = va_arg(args, int);
+	if (nbr < 0)
+		func->f_plus = 1;
 	return (nbr);
 }

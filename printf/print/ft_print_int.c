@@ -94,15 +94,11 @@ void		ft_print_int(t_format *form, t_arg *func, va_list args)
 	minus = 1;
 	nbr = 0;
 	ft_parsing_base(func);
-	ft_parsing_specifier(func, 1);
 	if (func->chr == 'i' || func->chr == 'd' || func->chr == 'D')
 	{
 		nbr = ft_cust_id(func, args);
 		if (nbr < 0)
-		{
 			minus = -1;
-			func->f_plus = 1;
-		}
 		nbr2 = (unsigned long long)nbr * minus;
 	}
 	else
