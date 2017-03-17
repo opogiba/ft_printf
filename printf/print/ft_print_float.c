@@ -48,6 +48,8 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 		string2 = ft_round_d(nbr - (long double)exponenta, func, string2);
 	else if(func->acc == 0 && func->acc > 15)
 		string2 = ft_round(nbr - (long double)exponenta, func, string2); //
+	if((int)ft_strlen(string2) != func->acc)
+		ft_check_len((int)ft_strlen(string2), func->acc, string2);
 	string1 = ft_dot_to_float(string1, func);
 	string = ft_strjoin(string1, string2);
 	return (string);
@@ -70,8 +72,7 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 //		finish = ft_round_d(nbr - (long double)exponenta, func, finish);
 //	else if(func->acc == 0 || func->acc > 15)
 //		finish = ft_round(nbr - (long double)exponenta, func, finish);
-//	if((int)ft_strlen(finish) != func->acc)
-//		ft_check_len((int)ft_strlen(finish), func->acc, finish);
+
 //	string = ft_dot_to_float(string, func);
 //	tmp = finish;
 //	finish = ft_strjoin(string, finish);
