@@ -45,8 +45,6 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 		func->acc = 6;
 		func->acc_ex = 1;
 	}
-	if (func->chr == 'F')
-		func->doub_len = 1;
 	string = ft_get_double(string, func, args);
 	if (func->f_apos == 1)
 		string = ft_put_apostrophe(string, func);

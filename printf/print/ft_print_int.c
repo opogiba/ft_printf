@@ -94,6 +94,7 @@ void		ft_print_int(t_format *form, t_arg *func, va_list args)
 	minus = 1;
 	nbr = 0;
 	ft_parsing_base(func);
+	ft_parsing_specifier(func, 1);
 	if (func->chr == 'i' || func->chr == 'd' || func->chr == 'D')
 	{
 		nbr = ft_cust_id(func, args);
@@ -106,7 +107,7 @@ void		ft_print_int(t_format *form, t_arg *func, va_list args)
 	}
 	else
 		nbr2 = ft_cust_uxo(func, args);
-	ft_parsing_specifier(func, nbr);
+	ft_parsing_specifier(func, nbr2);
 	str = ft_utoa_base(nbr2, func->base, func);
 	str = ft_accuracy_int(func, str, nbr2);
 	str = ft_width_int(func, str, minus, (int)ft_strlen(str));

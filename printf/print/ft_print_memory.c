@@ -18,6 +18,8 @@ void	ft_print_memory(t_format *form, t_arg *func, va_list args)
 	unsigned long long	nbr;
 
 	func->chr = 'x';
+	func->f_plus = 0;
+	func->f_space = 0;
 	nbr = (unsigned long long)va_arg(args, void*);
 	ft_parsing_base(func);
 	string = ft_utoa_base(nbr, func->base, func);

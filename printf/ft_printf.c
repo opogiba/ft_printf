@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
+#include <limits.h>
 
 void	ft_check_percent(t_format *form, t_arg *func, va_list args, va_list tmp)
 {
@@ -36,7 +37,7 @@ void	ft_format(t_format *form, t_arg *func, va_list args)
 			ft_parsing_brace(form, args);
 		if (form->str[form->inx] == '%')
 			ft_check_percent(form, func, args, tmp);
-		if (form->str[form->inx])
+		else if (form->str[form->inx])
 		{
 			ft_putchar_fd(form->str[form->inx], form->fd);
 			form->format_written++;
@@ -70,8 +71,21 @@ int		ft_printf(const char *format, ...)
 
 //int main()
 //{
-//	ft_printf("%e\n", 0.006);
-//	printf("%e\n", 0.006);
-//	printf("%.8g\n",1234567.9);
+////	printf("%zd%zd\n", 0, 42);
+////	ft_printf("%zd%zd\n", 0, 42);
+////	printf("{%F}\n", 1.42, 1.42);
+////	ft_printf("{%F}\n", 1.42, 1.42);
+////	printf("%#x\n", 42);
+////	ft_printf("%#x\n", 42);
+////	printf("% p|%+p\n", 42, 42);
+////	ft_printf("% p|%+p\n", 42, 42);
+//
+////	ft_printf("%e\n", 0.006);
+////	printf("%e\n", 0.006);
+////	printf("%.8g\n",1234567.9);
+////	printf("%D\n", LONG_MAX);
+////	ft_printf("%D\n", LONG_MAX);
+//	printf("{%F}\n", 1.42, 1.42);
+//	ft_printf("{%F}", 1.42, 1.42);
 //	return (0);
 //}

@@ -279,9 +279,9 @@ CMakeFiles/liba.dir/printf/print/ft_print_float.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/print/ft_print_float.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/print/ft_print_float.c.o: ../printf/print/ft_print_float.c
 
-CMakeFiles/liba.dir/printf/print/ft_print_g.c.o: ../ft_printf.h
-CMakeFiles/liba.dir/printf/print/ft_print_g.c.o: ../libft.h
-CMakeFiles/liba.dir/printf/print/ft_print_g.c.o: ../printf/print/ft_print_g.c
+CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o: ../printf/print/ft_print_float_or_exponent.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_int.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/print/ft_print_int.c.o: ../libft.h
