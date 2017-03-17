@@ -52,6 +52,8 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 		ft_check_len((int)ft_strlen(string2), func->acc, string2);
 	string1 = ft_dot_to_float(string1, func);
 	string = ft_strjoin(string1, string2);
+	free(string1);
+	free(string2);
 	return (string);
 }
 
@@ -72,6 +74,8 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 //		finish = ft_round_d(nbr - (long double)exponenta, func, finish);
 //	else if(func->acc == 0 || func->acc > 15)
 //		finish = ft_round(nbr - (long double)exponenta, func, finish);
+//	if((int)ft_strlen(string2) != func->acc)
+//		ft_check_len((int)ft_strlen(string2), func->acc, string2);
 
 //	string = ft_dot_to_float(string, func);
 //	tmp = finish;
