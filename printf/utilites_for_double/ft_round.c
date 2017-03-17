@@ -112,11 +112,34 @@ char		*ft_round(long double nbr, t_arg *func, char *str)
 //	}
 //	return (str);
 //}
-
-void		ft_round_d(long double nbr, t_arg *func, char *str)
+//void		ft_round_d(long double nbr, t_arg *func, char *str)
+//{
+//	int			p;
+//	long long	nbr_l;
+//
+//	p = func->acc;
+//	while (p > 0)
+//	{
+//		nbr *= 10;
+//		p--;
+//	}
+//	nbr_l = ft_r_nbr(nbr);
+//	p = func->acc - ft_nbrlen(nbr_l, 10);
+//	while (p > 0)
+//	{
+//		*str = '0';
+//		str++;
+//		p--;
+//	}
+//	nbr_to_str(nbr_l, 10, &str);
+//}
+char		*ft_round_d(long double nbr, t_arg *func, char *str)
 {
 	int			p;
 	long long	nbr_l;
+	int i;
+
+	i = 0;
 
 	p = func->acc;
 	while (p > 0)
@@ -128,9 +151,12 @@ void		ft_round_d(long double nbr, t_arg *func, char *str)
 	p = func->acc - ft_nbrlen(nbr_l, 10);
 	while (p > 0)
 	{
-		*str = '0';
-		str++;
+		str[i] = '0';
+		i++;
 		p--;
 	}
-	nbr_to_str(nbr_l, 10, &str);
+	char *string;
+	string = ft_itoa_base(nbr_l, 10);
+	str = ft_strjoin(str, string);
+	return (str);
 }
