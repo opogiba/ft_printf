@@ -36,9 +36,9 @@ char		*ft_round(long double nbr, t_arg *func, char *str)
 {
 	int			i;
 	int			acc;
-	int 		j;
-
-	j = 0;
+//	int 		j;
+//
+//	j = 0;
 	acc = func->acc;
 	while (acc > 0)
 	{
@@ -46,10 +46,14 @@ char		*ft_round(long double nbr, t_arg *func, char *str)
 		if (acc == 1)
 			nbr = ft_r_nbr(nbr);
 		i = (int) nbr;
-		str[j] = (char)(i + '0');
+//		str[j] = (char)(i + '0');
+//		nbr = nbr - i;
+//		acc--;
+//		j++;
+		*str = i + '0';
 		nbr = nbr - i;
 		acc--;
-		j++;
+		str++;
 	}
 	return (str);
 }
@@ -58,9 +62,9 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 {
 	int			acc;
 	long long	nbr_l;
-	int 		i;
-
-	i = 0;
+//	int 		i;
+//
+//	i = 0;
 
 	acc = func->acc;
 	while (acc > 0)
@@ -72,15 +76,19 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 	acc = func->acc - ft_nbrlen(nbr_l, 10);
 	while (acc > 0)
 	{
-		str[i] = '0';
-		i++;
+//		str[i] = '0';
+//		i++;
+//		acc--;
+		*str = '0';
+		str++;
 		acc--;
 	}
-	if(i != 0)
-	{
-		str = ft_strjoin(str,ft_itoa_base(nbr_l, 10));
-		return (str);
-	}
-	str = ft_itoa_base(nbr_l, 10);
+//	if(i != 0)
+//	{
+//		str = ft_strjoin(str,ft_itoa_base(nbr_l, 10));
+//		return (str);
+//	}
+//	str = ft_itoa_base(nbr_l, 10);
+	nbr_to_str(nbr_l, 10, &str);
 	return (str);
 }

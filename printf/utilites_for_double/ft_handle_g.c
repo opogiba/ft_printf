@@ -22,7 +22,7 @@ char 	*ft_del_zero(char *string, t_arg *func)
 
 char 	*ft_check_g(int count, char *string, t_arg *func, long double nbr)
 {
-	if((count < -4  || (count >= func->acc)) && func->base == 10 && func->acc != 0)
+	if((count < -4  || (count >= func->acc)) && func->base == 10)
 	{
 		string = ft_do_exponent_string(nbr, func, count);
 		return (string);

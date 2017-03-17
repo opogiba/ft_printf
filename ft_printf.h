@@ -124,3 +124,5 @@ char 				*ft_check_g(int count, char *string, t_arg *func, long double nbr);
 char 	*ft_del_zero(char *string, t_arg *func);
 char 	*ft_do_exponent_string(long double nbr, t_arg *func, int count);
 char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
+void	nbr_to_str(unsigned long long value, unsigned long long base,
+				   char **str);
