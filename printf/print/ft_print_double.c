@@ -55,3 +55,4 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 	ft_print(string, form);
 	free(string);
 }
+
