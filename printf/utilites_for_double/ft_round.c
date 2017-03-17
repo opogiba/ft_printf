@@ -76,7 +76,11 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 		i++;
 		acc--;
 	}
-//	str = ft_strjoin(str,ft_itoa_base(nbr_l, 10)); //
+	if(i != 0)
+	{
+		str = ft_strjoin(str,ft_itoa_base(nbr_l, 10));
+		return (str);
+	}
 	str = ft_itoa_base(nbr_l, 10);
 	return (str);
 }
