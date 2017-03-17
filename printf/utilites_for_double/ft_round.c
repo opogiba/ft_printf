@@ -32,31 +32,31 @@ long double	ft_r_nbr(long double nbr)
 		return (ft_floor(nbr));
 }
 
-//char		*ft_round(long double nbr, t_arg *func, char *str)
-//{
-//	int			i;
-//	int			acc;
-//	int 		j;
-//
-//	j = 0;
-//	acc = func->acc;
-//	while (acc > 0)
-//	{
-//		nbr *= 10;
-//		if (acc == 1)
-//			nbr = ft_r_nbr(nbr);
-//		i = (int) nbr;
-//		str[j] = (char)(i + '0');
+char		*ft_round(long double nbr, t_arg *func, char *str)
+{
+	int			i;
+	int			acc;
+	int 		j;
+
+	j = 0;
+	acc = func->acc;
+	while (acc > 0)
+	{
+		nbr *= 10;
+		if (acc == 1)
+			nbr = ft_r_nbr(nbr);
+		i = (int) nbr;
+		str[j] = (char)(i + '0');
+		nbr = nbr - i;
+		acc--;
+		j++;
+//		*str = i + '0';
 //		nbr = nbr - i;
 //		acc--;
-//		j++;
-////		*str = i + '0';
-////		nbr = nbr - i;
-////		acc--;
-////		str++;
-//	}
-//	return (str);
-//}
+//		str++;
+	}
+	return (str);
+}
 
 //char		*ft_round_d(long double nbr, t_arg *func, char *str)
 //{
@@ -93,25 +93,25 @@ long double	ft_r_nbr(long double nbr)
 ////	nbr_to_str(nbr_l, 10, &str);
 //	return (str);
 //}
-char		*ft_round(long double nbr, t_arg *func, char *str)
-{
-	int			i;
-	int			p;
-
-	p = func->acc;
-	while (p > 0)
-	{
-		nbr *= 10;
-		if (p == 1)
-			nbr = ft_r_nbr(nbr);
-		i = (int)nbr;
-		*str = i + '0';
-		nbr = nbr - i;
-		p--;
-		str++;
-	}
-	return (str);
-}
+//char		*ft_round(long double nbr, t_arg *func, char *str)
+//{
+//	int			i;
+//	int			p;
+//
+//	p = func->acc;
+//	while (p > 0)
+//	{
+//		nbr *= 10;
+//		if (p == 1)
+//			nbr = ft_r_nbr(nbr);
+//		i = (int)nbr;
+//		*str = i + '0';
+//		nbr = nbr - i;
+//		p--;
+//		str++;
+//	}
+//	return (str);
+//}
 
 void		ft_round_d(long double nbr, t_arg *func, char *str)
 {
