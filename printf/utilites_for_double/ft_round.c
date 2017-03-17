@@ -51,6 +51,7 @@ char		*ft_round(long double nbr, t_arg *func, char *str)
 		acc--;
 		j++;
 	}
+	str[j] = '\0';
 	return (str);
 }
 
