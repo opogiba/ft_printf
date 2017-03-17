@@ -127,4 +127,5 @@ char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
 void	nbr_to_str(unsigned long long value, unsigned long long base,
 				   char **str);
 
-char		*ft_round_d(long double nbr, t_arg *func, char *str);
+//char		*ft_round_d(long double nbr, t_arg *func, char *str);
+void		ft_round_d(long double nbr, t_arg *func, char *str);
