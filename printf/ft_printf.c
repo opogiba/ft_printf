@@ -68,7 +68,7 @@ int		ft_printf(const char *format, ...)
 	free(form);
 	return (i);
 }
-//
+
 //int main()
 //{
 ////	double a = 42.42;
@@ -89,8 +89,8 @@ int		ft_printf(const char *format, ...)
 ////	ft_printf("%+010f {red}dsad{eoc}dsada{green}dasdsad\n", 0.503);
 ////	ft_printf("%+010f", 0.503);
 ////	5.000000000E+02
-//	ft_printf("%.4g\n", 1001.0);
-//	printf("%.4g\n", 1001.0);
+//	ft_printf("%.2g\n", 42.42);
+//	printf("%.2g\n", 42.42);
 //
 //	return (0);
 //}
