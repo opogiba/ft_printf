@@ -14,20 +14,20 @@
 
 char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 {
-	long long	exponenta;
+	long long	mantisa;
 	char  *string1;
 	char *string2;
 
 	nbr = ft_parsing_znak_double(nbr, func);
 	if (func->acc_ex == 1 && func->acc == 0)
 		nbr = ft_r_nbr(nbr);
-	exponenta = (long long)nbr;
-	string1 = ft_utoa_base(exponenta,10,func);
+	mantisa = (long long)nbr;
+	string1 = ft_utoa_base(mantisa,10,func);
 	string2 = (char *)malloc(sizeof(char) * func->acc + 1);
 	if(func->acc > 0 && func->acc <= 15)
-		string2 = ft_round_d(nbr - (long double)exponenta, func, string2);
+		string2 = ft_round_d(nbr - (long double)mantisa, func, string2);
 	else if(func->acc == 0 && func->acc > 15)
-		string2 = ft_round(nbr - (long double)exponenta, func, string2);
+		string2 = ft_round(nbr - (long double)mantisa, func, string2);
 	if((int)ft_strlen(string2) != func->acc)
 		ft_check_len((int)ft_strlen(string2), func->acc, string2);
 	string1 = ft_dot_to_float(string1, func);

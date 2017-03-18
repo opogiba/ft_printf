@@ -86,8 +86,11 @@ int		ft_printf(const char *format, ...)
 ////	printf("%.8g\n",1234567.9);
 ////	printf("%D\n", LONG_MAX);
 ////	ft_printf("%D\n", LONG_MAX);
-//	ft_printf("%+010f {red}dsad{eoc}dsada{green}dasdsad\n", 0.503);
+////	ft_printf("%+010f {red}dsad{eoc}dsada{green}dasdsad\n", 0.503);
 ////	ft_printf("%+010f", 0.503);
 ////	5.000000000E+02
+//	ft_printf("%.4g\n", 1001.0);
+//	printf("%.4g\n", 1001.0);
+//
 //	return (0);
 //}

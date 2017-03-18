@@ -20,16 +20,13 @@ char 	*ft_del_zero(char *string, t_arg *func)
 	return (string);
 }
 
-char 	*ft_check_g(int count, char *string, t_arg *func, long double nbr)
+char 	*ft_check_g(int exponenta, char *string, t_arg *func, long double nbr)
 {
-	if((count < -4  || (count >= func->acc)) && func->base == 10)
+	if((exponenta < -4 ) || (exponenta >= func->acc && func->acc_ex == 1))
 	{
-		string = ft_do_exponent_string(nbr, func, count);
+		string = ft_do_exponent_string(nbr, func, exponenta);
 		return (string);
 	}
-	else if((count >= -4  || (count < func->acc)) && func->base != 11)
+	else
 		return (NULL);
-	string = ft_do_exponent_string(nbr, func, count);
-	return (string);
-
 }

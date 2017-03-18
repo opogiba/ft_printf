@@ -51,27 +51,27 @@ char	*ft_do_exponent_string(long double nbr, t_arg *func, int count)
 
 char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 {
-	unsigned long long	exponent;
-	int					count;
+	unsigned long long	mantisa;
+	int					exponenta;
 
-	count = 0;
+	exponenta = 0;
 	nbr = ft_parsing_znak_double(nbr, func);
-	exponent = (unsigned long long)nbr;
-	while (nbr != 0 && exponent == 0)
+	mantisa = (unsigned long long)nbr;
+	while (nbr != 0 && mantisa == 0)
 	{
-		count--;
+		exponenta--;
 		nbr = nbr * 10;
-		exponent = (unsigned long long)nbr;
+		mantisa = (unsigned long long)nbr;
 	}
-	while (exponent > 9)
+	while (mantisa > 9)
 	{
-		count++;
+		exponenta++;
 		nbr = nbr / 10;
-		exponent = (unsigned long long)nbr;
+		mantisa = (unsigned long long)nbr;
 	}
 	if (func->chr == 'G' || func->chr == 'g')
-		return (ft_check_g(count, string, func, nbr));
-	string = ft_do_exponent_string(nbr, func, count);
+		return (ft_check_g(exponenta, string, func, nbr));
+	string = ft_do_exponent_string(nbr, func, exponenta);
 	return (string);
 }
 
