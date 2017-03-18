@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/18 04:41:22 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/18 04:43:30 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/18 05:21:54 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char		*ft_round(long double nbr, t_arg *func, char *str)
 	{
 		nbr *= 10;
 		if (acc == 1)
-			nbr = ft_r_nbr(nbr);
+			nbr = ft_round_fraction(nbr);
 		i = (int)nbr;
 		str[j] = (char)(i + '0');
 		nbr = nbr - i;
@@ -47,7 +47,7 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 	p = func->acc;
 	while (p > 0 && p-- > 0)
 		nbr *= 10;
-	nbr_l = ft_r_nbr(nbr);
+	nbr_l = ft_round_fraction(nbr);
 	p = func->acc - ft_nbr_len(nbr_l, 10);
 	while (p > 0)
 	{

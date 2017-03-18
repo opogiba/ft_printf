@@ -110,9 +110,9 @@ void				ft_print_non_printable(t_format *form, t_arg *func, va_list args);
 char 				*ft_print_exponent_double(char *string, t_arg *func, long double nbr);
 char 				*ft_print_float(char *string, t_arg *func, long double nbr);
 char 				*ft_check_inf(long double nbr,t_arg *func);
-long double			ft_ceil(long double nbr);
-long double			ft_floor(long double nbr);
-long double			ft_r_nbr(long double nbr);
+long double			ft_ceil(long double fraction);
+long double			ft_floor(long double fraction);
+long double			ft_round_fraction(long double fract);
 char				*ft_round(long double nbr, t_arg *func, char *str);
 int					ft_nbr_len(unsigned long long i, unsigned long long base);
 char 				*ft_dot_to_float(char *string, t_arg *func);
@@ -121,9 +121,9 @@ char				*ft_round_d(long double nbr, t_arg *func, char *str);
 void				ft_check_dollar(t_format *form, t_arg *func, int i);
 
 
-char 				*ft_check_g(int exponenta, char *string, t_arg *func, long double nbr);
+char 				*ft_check_g(int exponent, char *string, t_arg *func, long double nbr);
 char 	*ft_del_zero(char *string, t_arg *func);
-char 	*ft_do_exponent_string(long double nbr, t_arg *func, int count);
+char 	*ft_do_exponent_string(long double nbr, t_arg *func, int exponent);
 char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
 
 

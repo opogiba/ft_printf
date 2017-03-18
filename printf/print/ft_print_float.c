@@ -14,26 +14,26 @@
 
 char	*ft_print_float(char *string, t_arg *func, long double nbr)
 {
-	long long	mantisa;
-	char		*string1;
-	char		*string2;
+	long long	base;
+	char		*first_part;
+	char		*second_part;
 
 	nbr = ft_parsing_znak_double(nbr, func);
 	if (func->acc_ex == 1 && func->acc == 0)
-		nbr = ft_r_nbr(nbr);
-	mantisa = (long long)nbr;
-	string1 = ft_utoa_base(mantisa, 10, func);
-	string2 = (char *)malloc(sizeof(char) * func->acc + 1);
-	string2[func->acc] = '\0';
+		nbr = ft_round_fraction(nbr);
+	base = (long long)nbr;
+	first_part = ft_utoa_base(base, 10, func);
+	second_part = (char *)malloc(sizeof(char) * func->acc + 1);
+	second_part[func->acc] = '\0';
 	if (func->acc > 0 && func->acc <= 15)
-		string2 = ft_round_d(nbr - (long double)mantisa, func, string2);
+		second_part = ft_round_d(nbr - (long double)base, func, second_part);
 	else if (func->acc == 0 && func->acc > 15)
-		string2 = ft_round(nbr - (long double)mantisa, func, string2);
-	if ((int)ft_strlen(string2) != func->acc)
-		ft_check_len(func->acc, string2);
-	string1 = ft_dot_to_float(string1, func);
-	string = ft_strjoin(string1, string2);
-	free(string1);
-	free(string2);
+		second_part = ft_round(nbr - (long double)base, func, second_part);
+	if ((int)ft_strlen(second_part) != func->acc)
+		ft_check_len(func->acc, second_part);
+	first_part = ft_dot_to_float(first_part, func);
+	string = ft_strjoin(first_part, second_part);
+	free(first_part);
+	free(second_part);
 	return (string);
 }

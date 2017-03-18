@@ -12,11 +12,11 @@
 
 #include "../../ft_printf.h"
 
-char	*ft_sec_part_exp(char *second_part, t_arg *func, int count)
+char	*ft_sec_part_exp(char *second_part, t_arg *func, int exponent)
 {
-	if (count > -10 && count < 10)
+	if (exponent > -10 && exponent < 10)
 		second_part = ft_join_char(second_part, 1, '0');
-	if (count < 0)
+	if (exponent < 0)
 		second_part = ft_join_char(second_part, 1, '-');
 	else
 		second_part = ft_join_char(second_part, 1, '+');
@@ -27,51 +27,51 @@ char	*ft_sec_part_exp(char *second_part, t_arg *func, int count)
 	return (second_part);
 }
 
-char	*ft_do_exponent_string(long double nbr, t_arg *func, int count)
+char	*ft_do_exponent_string(long double nbr, t_arg *func, int exponent)
 {
-	char	*finish;
+	char	*first_part;
 	char	*second_part;
 	char	*tmp;
 	int		k;
 
-	finish = NULL;
-	k = count;
-	if (count < 0)
-		k = -count;
+	first_part = NULL;
+	k = exponent;
+	if (exponent < 0)
+		k = -exponent;
 	second_part = ft_itoa_base(k, 10);
-	second_part = ft_sec_part_exp(second_part, func, count);
-	finish = ft_print_float(finish, func, nbr);
+	second_part = ft_sec_part_exp(second_part, func, exponent);
+	first_part = ft_print_float(first_part, func, nbr);
 	if (func->chr == 'G' || func->chr == 'g')
-		finish = ft_del_zero(finish, func);
-	tmp = finish;
-	finish = ft_strjoin(finish, second_part);
+		first_part = ft_del_zero(first_part, func);
+	tmp = first_part;
+	first_part = ft_strjoin(first_part, second_part);
 	free(tmp);
 	free(second_part);
-	return (finish);
+	return (first_part);
 }
 
 char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 {
-	unsigned long long	mantisa;
-	int					exponenta;
+	unsigned long long	base;
+	int					exponent;
 
-	exponenta = 0;
+	exponent = 0;
 	nbr = ft_parsing_znak_double(nbr, func);
-	mantisa = (unsigned long long)nbr;
-	while (nbr != 0 && mantisa == 0)
+	base = (unsigned long long)nbr;
+	while (nbr != 0 && base == 0)
 	{
-		exponenta--;
+		exponent--;
 		nbr = nbr * 10;
-		mantisa = (unsigned long long)nbr;
+		base = (unsigned long long)nbr;
 	}
-	while (mantisa > 9)
+	while (base > 9)
 	{
-		exponenta++;
+		exponent++;
 		nbr = nbr / 10;
-		mantisa = (unsigned long long)nbr;
+		base = (unsigned long long)nbr;
 	}
 	if (func->chr == 'G' || func->chr == 'g')
-		return (ft_check_g(exponenta, string, func, nbr));
-	string = ft_do_exponent_string(nbr, func, exponenta);
+		return (ft_check_g(exponent, string, func, nbr));
+	string = ft_do_exponent_string(nbr, func, exponent);
 	return (string);
 }

@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/16 13:45:02 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/16 13:48:41 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/18 05:31:11 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ char		*ft_accuracy_string(t_arg *func, char *string)
 		if ((int)ft_strlen(string) > func->acc)
 		{
 			tmp = string;
-			string = ft_strsub(string, 0, func->acc);
+			string = ft_strsub(string, 0, (size_t)func->acc);
 			free(tmp);
 		}
 	}
