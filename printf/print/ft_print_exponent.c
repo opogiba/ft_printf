@@ -41,7 +41,8 @@ char	*ft_do_exponent_string(long double nbr, t_arg *func, int count)
 	second_part = ft_itoa_base(k, 10);
 	second_part = ft_sec_part_exp(second_part, func, count);
 	finish = ft_print_float(finish, func, nbr);
-
+	if (func->chr == 'G' || func->chr == 'g')
+		finish = ft_del_zero(finish, func);
 	tmp = finish;
 	finish = ft_strjoin(finish, second_part);
 	free(tmp);
@@ -76,15 +77,7 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 }
 
 
-//	if ((func->chr == 'G' || func->chr == 'g') && func->f_hash == 0)
-//	{
-//		k = (int)ft_strlen(finish);
-//		k = k - 1;
-//		while (finish[k] == '0')
-//			finish[k--] = '\0';
-//		if (finish[k] == '.')
-//			finish[k] = '\0';
-//	} // part from ft do string
+ // part from ft do string
 
 
 
