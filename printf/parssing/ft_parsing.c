@@ -20,7 +20,8 @@ void	ft_parsing(t_format *form, t_arg *func, va_list args)
 	while (ft_strchr("#+-0123456789 '$hlLjz*.", form->str[form->inx]) &&
 			form->str[form->inx])
 	{
-		ft_parsing_flags(form, func, i);
+		ft_check_dollar(form, func, i);
+		ft_parsing_flags(form, func);
 		ft_parsing_width(form, func, args);
 		ft_parsing_accuracy(form, func, args);
 		ft_parsing_length(form, func);

@@ -66,10 +66,8 @@ typedef struct s_format
 	int		format_written;
 	int 	inx;
 	const char *str;
-
 }				t_format;
 
-void	ft_check_percent(t_format *form, t_arg *func, va_list args, va_list tmp);
 
 void				ft_clean(t_arg *func);
 char				**ft_print_color(void);
@@ -94,7 +92,7 @@ void				ft_change_list(va_list args,va_list tmp, t_arg *func);
 void 				ft_parsing(t_format *form, t_arg *func, va_list args);
 void				ft_parsing_accuracy(t_format *form, t_arg *func, va_list args);
 void				ft_parsing_width(t_format *form, t_arg *func, va_list args);
-void				ft_parsing_flags(t_format *form, t_arg *func, int i);
+void				ft_parsing_flags(t_format *form, t_arg *func);
 void				ft_parsing_length(t_format *fr, t_arg *func);
 void				ft_parsing_brace(t_format *form, va_list args);
 void 				ft_parsing_base(t_arg *func);
@@ -120,6 +118,7 @@ int					ft_nbrlen(unsigned long long i, unsigned long long base);
 char 				*ft_dot_to_float(char *string, t_arg *func);
 char 				*ft_check_len(int len1, int len2, char *finish);
 char				*ft_round_d(long double nbr, t_arg *func, char *str);
+void				ft_check_dollar(t_format *form, t_arg *func, int i);
 
 
 char 				*ft_check_g(int count, char *string, t_arg *func, long double nbr);

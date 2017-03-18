@@ -53,17 +53,17 @@ static int	**ft_mas_month(void)
 
 void		ft_convert_time(t_time *tm, unsigned long long time)
 {
-	unsigned long	dayclock;
+	unsigned long	day_clock;
 	unsigned long	dayno;
 	int				**month_day;
 
 	tm->year_start = 1970;
 	month_day = ft_mas_month();
-	dayclock = time % (24 * 60 * 60);
+	day_clock = time % (24 * 60 * 60);
 	dayno = time / (24 * 60 * 60);
-	tm->sec = dayclock % 60;
-	tm->min = (dayclock % 3600) / 60;
-	tm->hour = dayclock / 3600;
+	tm->sec = day_clock % 60;
+	tm->min = (day_clock % 3600) / 60;
+	tm->hour = day_clock / 3600;
 	while ((int)dayno >= ft_year_size(tm->year_start))
 	{
 		dayno -= ft_year_size(tm->year_start);

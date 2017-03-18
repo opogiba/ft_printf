@@ -30,7 +30,7 @@ void	ft_parsing_width(t_format *form, t_arg *func, va_list args)
 		func->width = va_arg(args, int);
 		if (func->width < 0)
 			func->f_minus = 1;
-		func->width = ft_abs(func->width);
+		func->width = (int)ft_abs(func->width);
 		form->inx++;
 	}
 }

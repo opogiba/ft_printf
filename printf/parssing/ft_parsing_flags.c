@@ -12,7 +12,29 @@
 
 #include "../../ft_printf.h"
 
-void	ft_parsing_flags(t_format *form, t_arg *func, int i)
+void	ft_check_dollar(t_format *form, t_arg *func, int j)
+{
+	int i;
+
+	if (j == 0)
+	{
+		i = form->inx;
+		while(ft_isdigit(form->str[i]))
+		{
+			i++;
+			func->f_dol_val = func->f_dol_val * 10 + (form->str[i] - '0');
+		}
+		if(form->str[i] == '$')
+		{
+			func->f_dollar = 1;
+			form->inx += i;
+		}
+		else
+			func->f_dol_val = 0;
+	}
+}
+
+void	ft_parsing_flags(t_format *form, t_arg *func)
 {
 	while (form->str[form->inx])
 	{
@@ -28,13 +50,6 @@ void	ft_parsing_flags(t_format *form, t_arg *func, int i)
 			func->f_space = 1;
 		else if (form->str[form->inx] == '\'')
 			func->f_apos = 1;
-		else if (ft_isdigit(form->str[form->inx]) &&
-				form->str[form->inx + 1] == '$' && i == 0)
-		{
-			form->inx = form->inx++;
-			func->f_dollar = 1;
-			func->f_dol_val = form->str[form->inx] + '0';
-		}
 		else
 			break ;
 		form->inx++;
