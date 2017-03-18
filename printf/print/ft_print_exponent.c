@@ -69,8 +69,8 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 		nbr = nbr / 10;
 		mantisa = (unsigned long long)nbr;
 	}
-//	if (func->chr == 'G' || func->chr == 'g')
-//		return (ft_check_g(exponenta, string, func, nbr));
+	if (func->chr == 'G' || func->chr == 'g')
+		return (ft_check_g(exponenta, string, func, nbr));
 	string = ft_do_exponent_string(nbr, func, exponenta);
 	return (string);
 }
