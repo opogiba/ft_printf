@@ -69,25 +69,25 @@ int		ft_printf(const char *format, ...)
 	return (i);
 }
 //
-int main()
-{
-//	double a = 42.42;
-//	printf("%zd%zd\n", 0, 42);
-//	ft_printf("%zd%zd\n", 0, 42);
-//	printf("{%F}\n", 1.42, 1.42);
-//	ft_printf("{%F}\n", 1.42, 1.42);
-//	printf("%#x\n", 42);
-//	ft_printf("%#x\n", 42);
-//	printf("% p|%+p\n", 42, 42);
-//	ft_printf("% p|%+p\n", 42, 42);
-
-//	ft_printf("%e\n", 0.006);
-//	printf("%e\n", 0.006);
-//	printf("%.8g\n",1234567.9);
-//	printf("%D\n", LONG_MAX);
-//	ft_printf("%D\n", LONG_MAX);
-	ft_printf("%+010f {red}dsad{eoc}dsada{green}dasdsad\n", 0.503);
-//	ft_printf("%+010f", 0.503);
-//	5.000000000E+02
-	return (0);
-}
+//int main()
+//{
+////	double a = 42.42;
+////	printf("%zd%zd\n", 0, 42);
+////	ft_printf("%zd%zd\n", 0, 42);
+////	printf("{%F}\n", 1.42, 1.42);
+////	ft_printf("{%F}\n", 1.42, 1.42);
+////	printf("%#x\n", 42);
+////	ft_printf("%#x\n", 42);
+////	printf("% p|%+p\n", 42, 42);
+////	ft_printf("% p|%+p\n", 42, 42);
+//
+////	ft_printf("%e\n", 0.006);
+////	printf("%e\n", 0.006);
+////	printf("%.8g\n",1234567.9);
+////	printf("%D\n", LONG_MAX);
+////	ft_printf("%D\n", LONG_MAX);
+//	ft_printf("%+010f {red}dsad{eoc}dsada{green}dasdsad\n", 0.503);
+////	ft_printf("%+010f", 0.503);
+////	5.000000000E+02
+//	return (0);
+//}
