@@ -24,6 +24,7 @@ char 	*ft_print_float(char *string, t_arg *func, long double nbr)
 	mantisa = (long long)nbr;
 	string1 = ft_utoa_base(mantisa,10,func);
 	string2 = (char *)malloc(sizeof(char) * func->acc + 1);
+	string2[func->acc] = '\0';
 	if(func->acc > 0 && func->acc <= 15)
 		string2 = ft_round_d(nbr - (long double)mantisa, func, string2);
 	else if(func->acc == 0 && func->acc > 15)
