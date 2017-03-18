@@ -19,7 +19,7 @@ char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr)
 //	}
 	char *string1 = ft_print_exponent_double(string, func, nbr);
 	char *string2 = ft_print_float(string, func, nbr);
-	if(ft_strlen(string1) < ft_strlen(string2))
+	if(ft_strlen(string1) > ft_strlen(string2))
 		return (string2);
 	else
 		return (string1);
