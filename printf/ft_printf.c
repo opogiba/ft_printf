@@ -89,8 +89,8 @@ int		ft_printf(const char *format, ...)
 ////	ft_printf("%+010f {red}dsad{eoc}dsada{green}dasdsad\n", 0.503);
 ////	ft_printf("%+010f", 0.503);
 ////	5.000000000E+02
-//	printf("%.6g\n", 2147483647.0);
-//	ft_printf("%.6g\n", 2147483647.0);
+//	printf("%.2G\n", 42.42);
+//	ft_printf("%.2G\n", 42.42);
 //
 //
 //	return (0);

@@ -53,6 +53,8 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 {
 	unsigned long long	mantisa;
 	int					exponenta;
+	int len;
+	len = (int)ft_strlen(ft_itoa_base((long int)nbr, 10));
 
 	exponenta = 0;
 	nbr = ft_parsing_znak_double(nbr, func);
@@ -70,7 +72,7 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 		mantisa = (unsigned long long)nbr;
 	}
 	if (func->chr == 'G' || func->chr == 'g')
-		return (ft_check_g(exponenta, string, func, nbr));
+		return (ft_check_g(exponenta, string, func, nbr, len));
 	string = ft_do_exponent_string(nbr, func, exponenta);
 	return (string);
 }
