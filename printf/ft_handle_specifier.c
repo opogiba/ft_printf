@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/17 16:26:34 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/17 16:26:47 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/18 20:29:26 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,8 @@ void	ft_handle_specifier(t_format *form, t_arg *func, va_list args)
 	else if (func->chr == 'n')
 		ft_pointer_to_int(form, args);
 	else if (func->chr == 'f' || func->chr == 'F' || func->chr == 'e'
-			|| func->chr == 'E' || func->chr == 'g' || func->chr == 'G')
+			|| func->chr == 'E' || func->chr == 'g' || func->chr == 'G'
+			|| func->chr == 'a' || func->chr == 'A')
 		ft_print_double(form, func, args);
 	else
 		ft_print_char(form, func, args);

@@ -1,28 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_nbrlen.c                                        :+:      :+:    :+:   */
+/*   ft_count_acc_for_a.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/18 05:18:48 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/18 05:18:49 by opogiba          ###   ########.fr       */
+/*   Created: 2017/03/18 20:28:24 by opogiba           #+#    #+#             */
+/*   Updated: 2017/03/18 20:28:53 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../ft_printf.h"
 
-int		ft_nbr_len(unsigned long long i, unsigned long long base)
+int		ft_count_acc_for_a(long double nbr)
 {
-	int j;
+	int i;
+	int base;
 
-	j = 0;
-	if (i == 0)
-		return (1);
-	while (i > 0)
+	i = 0;
+	while (nbr != 0)
 	{
-		i = i / base;
-		j++;
+		nbr = nbr * 16;
+		base = (int)nbr;
+		nbr -= (long double)base;
+		i++;
 	}
-	return (j);
+	return (i);
 }

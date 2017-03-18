@@ -7,6 +7,9 @@ CMakeFiles/liba.dir/libft/ft_abs.c.o
 CMakeFiles/liba.dir/libft/ft_atoi.c.o
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi.c
+CMakeFiles/liba.dir/libft/ft_atoi_base.c.o
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi_base.c
 CMakeFiles/liba.dir/libft/ft_bzero.c.o
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/libft/ft_bzero.c
@@ -271,6 +274,10 @@ CMakeFiles/liba.dir/printf/print/ft_print_double.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double.c
+CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double_hexdecimal.c
 CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
@@ -307,10 +314,6 @@ CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_change_list.c
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o
- /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
- /nfs/2016/o/opogiba/Documents/liba/libft.h
- /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_check_inf.c
 CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
@@ -363,6 +366,10 @@ CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_wchar.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
@@ -371,6 +378,10 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_count_acc_for_a.c
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h

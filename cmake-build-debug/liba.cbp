@@ -94,6 +94,9 @@
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi.c">
 			<Option target="liba"/>
 		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi_base.c">
+			<Option target="liba"/>
+		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/libft/ft_bzero.c">
 			<Option target="liba"/>
 		</Unit>
@@ -346,6 +349,9 @@
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double.c">
 			<Option target="liba"/>
 		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double_hexdecimal.c">
+			<Option target="liba"/>
+		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_exponent.c">
 			<Option target="liba"/>
 		</Unit>
@@ -419,6 +425,9 @@
 			<Option target="liba"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c">
+			<Option target="liba"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_count_acc_for_a.c">
 			<Option target="liba"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c">

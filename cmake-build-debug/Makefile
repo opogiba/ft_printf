@@ -177,6 +177,33 @@ libft/ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_atoi.c.s
 .PHONY : libft/ft_atoi.c.s
 
+libft/ft_atoi_base.o: libft/ft_atoi_base.c.o
+
+.PHONY : libft/ft_atoi_base.o
+
+# target to build an object file
+libft/ft_atoi_base.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_atoi_base.c.o
+.PHONY : libft/ft_atoi_base.c.o
+
+libft/ft_atoi_base.i: libft/ft_atoi_base.c.i
+
+.PHONY : libft/ft_atoi_base.i
+
+# target to preprocess a source file
+libft/ft_atoi_base.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_atoi_base.c.i
+.PHONY : libft/ft_atoi_base.c.i
+
+libft/ft_atoi_base.s: libft/ft_atoi_base.c.s
+
+.PHONY : libft/ft_atoi_base.s
+
+# target to generate assembly for a file
+libft/ft_atoi_base.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_atoi_base.c.s
+.PHONY : libft/ft_atoi_base.c.s
+
 libft/ft_bzero.o: libft/ft_bzero.c.o
 
 .PHONY : libft/ft_bzero.o
@@ -2445,6 +2472,33 @@ printf/print/ft_print_double.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/ft_print_double.c.s
 .PHONY : printf/print/ft_print_double.c.s
 
+printf/print/ft_print_double_hexdecimal.o: printf/print/ft_print_double_hexdecimal.c.o
+
+.PHONY : printf/print/ft_print_double_hexdecimal.o
+
+# target to build an object file
+printf/print/ft_print_double_hexdecimal.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o
+.PHONY : printf/print/ft_print_double_hexdecimal.c.o
+
+printf/print/ft_print_double_hexdecimal.i: printf/print/ft_print_double_hexdecimal.c.i
+
+.PHONY : printf/print/ft_print_double_hexdecimal.i
+
+# target to preprocess a source file
+printf/print/ft_print_double_hexdecimal.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.i
+.PHONY : printf/print/ft_print_double_hexdecimal.c.i
+
+printf/print/ft_print_double_hexdecimal.s: printf/print/ft_print_double_hexdecimal.c.s
+
+.PHONY : printf/print/ft_print_double_hexdecimal.s
+
+# target to generate assembly for a file
+printf/print/ft_print_double_hexdecimal.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.s
+.PHONY : printf/print/ft_print_double_hexdecimal.c.s
+
 printf/print/ft_print_exponent.o: printf/print/ft_print_exponent.c.o
 
 .PHONY : printf/print/ft_print_exponent.o
@@ -3120,6 +3174,33 @@ printf/utilites_for_double/ft_check_spec_g.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.s
 .PHONY : printf/utilites_for_double/ft_check_spec_g.c.s
 
+printf/utilites_for_double/ft_count_acc_for_a.o: printf/utilites_for_double/ft_count_acc_for_a.c.o
+
+.PHONY : printf/utilites_for_double/ft_count_acc_for_a.o
+
+# target to build an object file
+printf/utilites_for_double/ft_count_acc_for_a.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o
+.PHONY : printf/utilites_for_double/ft_count_acc_for_a.c.o
+
+printf/utilites_for_double/ft_count_acc_for_a.i: printf/utilites_for_double/ft_count_acc_for_a.c.i
+
+.PHONY : printf/utilites_for_double/ft_count_acc_for_a.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_count_acc_for_a.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.i
+.PHONY : printf/utilites_for_double/ft_count_acc_for_a.c.i
+
+printf/utilites_for_double/ft_count_acc_for_a.s: printf/utilites_for_double/ft_count_acc_for_a.c.s
+
+.PHONY : printf/utilites_for_double/ft_count_acc_for_a.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_count_acc_for_a.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.s
+.PHONY : printf/utilites_for_double/ft_count_acc_for_a.c.s
+
 printf/utilites_for_double/ft_del_zero.o: printf/utilites_for_double/ft_del_zero.c.o
 
 .PHONY : printf/utilites_for_double/ft_del_zero.o
@@ -3270,6 +3351,9 @@ help:
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
+	@echo "... libft/ft_atoi_base.o"
+	@echo "... libft/ft_atoi_base.i"
+	@echo "... libft/ft_atoi_base.s"
 	@echo "... libft/ft_bzero.o"
 	@echo "... libft/ft_bzero.i"
 	@echo "... libft/ft_bzero.s"
@@ -3522,6 +3606,9 @@ help:
 	@echo "... printf/print/ft_print_double.o"
 	@echo "... printf/print/ft_print_double.i"
 	@echo "... printf/print/ft_print_double.s"
+	@echo "... printf/print/ft_print_double_hexdecimal.o"
+	@echo "... printf/print/ft_print_double_hexdecimal.i"
+	@echo "... printf/print/ft_print_double_hexdecimal.s"
 	@echo "... printf/print/ft_print_exponent.o"
 	@echo "... printf/print/ft_print_exponent.i"
 	@echo "... printf/print/ft_print_exponent.s"
@@ -3597,6 +3684,9 @@ help:
 	@echo "... printf/utilites_for_double/ft_check_spec_g.o"
 	@echo "... printf/utilites_for_double/ft_check_spec_g.i"
 	@echo "... printf/utilites_for_double/ft_check_spec_g.s"
+	@echo "... printf/utilites_for_double/ft_count_acc_for_a.o"
+	@echo "... printf/utilites_for_double/ft_count_acc_for_a.i"
+	@echo "... printf/utilites_for_double/ft_count_acc_for_a.s"
 	@echo "... printf/utilites_for_double/ft_del_zero.o"
 	@echo "... printf/utilites_for_double/ft_del_zero.i"
 	@echo "... printf/utilites_for_double/ft_del_zero.s"

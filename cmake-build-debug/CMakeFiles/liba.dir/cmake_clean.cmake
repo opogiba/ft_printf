@@ -73,6 +73,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/liba.dir/libft/ft_abs.c.o"
   "CMakeFiles/liba.dir/libft/ft_pow.c.o"
   "CMakeFiles/liba.dir/libft/ft_join_char.c.o"
+  "CMakeFiles/liba.dir/libft/ft_atoi_base.c.o"
   "CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o"
   "CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o"
   "CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o"
@@ -115,6 +116,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o"
   "CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o"
   "CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o"
+  "CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o"
+  "CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o"
   "liba.pdb"
   "liba"
 )

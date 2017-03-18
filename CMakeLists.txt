@@ -78,6 +78,7 @@ set(SOURCE_FILES
         libft/ft_abs.c
         libft/ft_pow.c
         libft/ft_join_char.c
+        libft/ft_atoi_base.c
         ft_printf.h
         libft.h
         printf/ft_handle_specifier.c
@@ -121,6 +122,8 @@ set(SOURCE_FILES
         printf/utilites/ft_nbrlen.c
         printf/utilites_for_double/ft_check_spec_g.c
         printf/utilites_for_double/ft_dot_to_float.c
-        printf/utilites_for_double/ft_round_double.c)
+        printf/utilites_for_double/ft_round_double.c
+        printf/print/ft_print_double_hexdecimal.c
+        printf/utilites_for_double/ft_count_acc_for_a.c)
 
 add_executable(liba ${SOURCE_FILES})

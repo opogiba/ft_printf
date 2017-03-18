@@ -30,6 +30,7 @@ char		*ft_itoa_base(long long value, int base);
 char 	*ft_clean_str(char *nbr);
 void	ft_clean_2dchar(char **nbr);
 char	*ft_join_char(char *str, int flag, char c);
+int			ft_atoi_base(const char *str, const int base);
 
 void				ft_putnbr(int n);
 void				ft_strclr(char *s);

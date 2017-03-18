@@ -23,7 +23,7 @@ char	*ft_get_double(char *string, t_arg *func, long double nbr)
 	else if (func->chr == 'g' || func->chr == 'G')
 		string = ft_print_float_or_exponent(string, func, nbr);
 	else if (func->chr == 'a' || func->chr == 'A')
-		string = ft_print_float_or_exponent(string, func, nbr);
+		string = ft_print_hex_double(string, func, nbr);
 	return (string);
 }
 
@@ -33,7 +33,7 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 	long double	nbr;
 	int			minus;
 
-	if (func->acc_ex != 1)
+	if (func->acc_ex != 1 && func->chr != 'a' && func->chr != 'A')
 	{
 		func->acc = 6;
 		func->acc_ex = 1;

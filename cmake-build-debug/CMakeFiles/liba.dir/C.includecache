@@ -32,6 +32,10 @@ unistd.h
 ../libft.h
 /nfs/2016/o/opogiba/Documents/liba/libft.h
 
+/nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi_base.c
+../libft.h
+/nfs/2016/o/opogiba/Documents/liba/libft.h
+
 /nfs/2016/o/opogiba/Documents/liba/libft/ft_bzero.c
 ../libft.h
 /nfs/2016/o/opogiba/Documents/liba/libft.h
@@ -370,6 +374,10 @@ limits.h
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
+/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double_hexdecimal.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
 /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_exponent.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
@@ -403,10 +411,6 @@ limits.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
 /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_change_list.c
-../../ft_printf.h
-/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
-
-/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_check_inf.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
@@ -462,11 +466,19 @@ limits.h
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
 /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
 /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_count_acc_for_a.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 

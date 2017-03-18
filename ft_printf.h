@@ -11,10 +11,8 @@
 /* ************************************************************************** */
 
 #include <stdarg.h>
-#include <stdio.h>
 #include "libft.h"
 #include <wchar.h>
-
 
 typedef enum 		s_len
 {
@@ -26,7 +24,6 @@ typedef enum 		s_len
 	J,
 	Z
 }					t_len;
-
 
 typedef struct	s_time
 {
@@ -59,7 +56,6 @@ typedef struct		s_arg
 	t_len			len;
 }					t_arg;
 
-
 typedef struct s_format
 {
 	int 	fd;
@@ -67,7 +63,6 @@ typedef struct s_format
 	int 	inx;
 	const char *str;
 }				t_format;
-
 
 void				ft_clean(t_arg *func);
 char				**ft_print_color(void);
@@ -119,11 +114,11 @@ char 				*ft_dot_to_float(char *string, t_arg *func);
 char 				*ft_check_len(int len, char *finish);
 char				*ft_round_d(long double nbr, t_arg *func, char *str);
 void				ft_check_dollar(t_format *form, t_arg *func, int i);
-
-
+char				*ft_print_hex_double(char *string, t_arg *func, double long nbr);
 char 				*ft_check_g(int exponent, char *string, t_arg *func, long double nbr);
-char 	*ft_del_zero(char *string, t_arg *func);
-char 	*ft_do_exponent_string(long double nbr, t_arg *func, int exponent);
-char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
+char 				*ft_del_zero(char *string, t_arg *func);
+char 				*ft_do_exponent_string(long double nbr, t_arg *func, int exponent);
+char 				*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
+int 				ft_count_acc_for_a(long double nbr);
 
 

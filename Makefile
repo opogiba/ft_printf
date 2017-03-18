@@ -41,7 +41,7 @@ $(FOLDER)ft_strrev.c $(FOLDER)ft_iterative_factorial.c \
 $(FOLDER)ft_sort_wordtab.c $(FOLDER)ft_foreach.c \
 $(FOLDER)ft_rrange.c $(FOLDER)ft_realloc.c $(FOLDER)ft_abs.c\
 $(FOLDER)ft_pow.c $(FOLDER)ft_itoa_base.c $(FOLDER)ft_clean_2d.c \
-$(FOLDER)ft_clean_str.c $(FOLDER)ft_join_char.c
+$(FOLDER)ft_clean_str.c $(FOLDER)ft_join_char.c $(FOLDER)ft_atoi_base.c
 
 
 SRC2 =  printf/ft_handle_specifier.c \
@@ -85,7 +85,9 @@ SRC2 =  printf/ft_handle_specifier.c \
                printf/utilites/ft_nbrlen.c \
                printf/utilites_for_double/ft_check_spec_g.c \
                printf/utilites_for_double/ft_dot_to_float.c \
-               printf/utilites_for_double/ft_round_double.c
+               printf/utilites_for_double/ft_round_double.c \
+               printf/print/ft_print_double_hexdecimal.c \
+               printf/utilites_for_double/ft_count_acc_for_a.c
 
 
 SRC = $(SRC1) $(SRC2)

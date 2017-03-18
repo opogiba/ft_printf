@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/o/opogiba/Documents/liba/libft/ft_abs.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/libft/ft_abs.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/libft/ft_atoi.c.o"
+  "/nfs/2016/o/opogiba/Documents/liba/libft/ft_atoi_base.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/libft/ft_atoi_base.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/libft/ft_bzero.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/libft/ft_bzero.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/libft/ft_clean_2d.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/libft/ft_clean_str.c.o"
@@ -90,6 +91,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_pointer_to_int.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_char.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_print_char.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_print_double.c.o"
+  "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_double_hexdecimal.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_exponent.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_float.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_print_float.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_float_or_exponent.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o"
@@ -115,6 +117,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o"
+  "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_count_acc_for_a.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o"
   "/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_parsing_znak_double.c" "/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o"

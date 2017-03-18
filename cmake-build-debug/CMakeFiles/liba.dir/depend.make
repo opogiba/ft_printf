@@ -7,6 +7,9 @@ CMakeFiles/liba.dir/libft/ft_abs.c.o: ../libft/ft_abs.c
 CMakeFiles/liba.dir/libft/ft_atoi.c.o: ../libft.h
 CMakeFiles/liba.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 
+CMakeFiles/liba.dir/libft/ft_atoi_base.c.o: ../libft.h
+CMakeFiles/liba.dir/libft/ft_atoi_base.c.o: ../libft/ft_atoi_base.c
+
 CMakeFiles/liba.dir/libft/ft_bzero.c.o: ../libft.h
 CMakeFiles/liba.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
 
@@ -271,6 +274,10 @@ CMakeFiles/liba.dir/printf/print/ft_print_double.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/print/ft_print_double.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/print/ft_print_double.c.o: ../printf/print/ft_print_double.c
 
+CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o: ../printf/print/ft_print_double_hexdecimal.c
+
 CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o: ../printf/print/ft_print_exponent.c
@@ -306,10 +313,6 @@ CMakeFiles/liba.dir/printf/print/ft_print_time.c.o: ../printf/print/ft_print_tim
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../printf/utilites/ft_change_list.c
-
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o: ../ft_printf.h
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o: ../libft.h
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o: ../printf/utilites/ft_check_inf.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o: ../libft.h
@@ -363,6 +366,10 @@ CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../printf/utilites/ft_wchar.c
 
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o: ../printf/utilites_for_double/ft_check_inf.c
+
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../printf/utilites_for_double/ft_check_len.c
@@ -370,6 +377,10 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../printf/utili
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../printf/utilites_for_double/ft_check_spec_g.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o: ../printf/utilites_for_double/ft_count_acc_for_a.c
 
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: ../libft.h

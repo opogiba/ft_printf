@@ -69,12 +69,14 @@ int		ft_printf(const char *format, ...)
 	return (i);
 }
 
+//
 //int main()
 //{
 //
-//	printf("%.8g\n", 0.00000042423213);
-//	ft_printf("%.8g\n", 0.00000042423213);
+//	printf("%a\n", 3213.32132131);
+//	ft_printf("%a\n", 3213.32132131);
 //
 //
 //	return (0);
 //}
+
