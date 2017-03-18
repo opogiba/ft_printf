@@ -121,7 +121,7 @@ char				*ft_round_d(long double nbr, t_arg *func, char *str);
 void				ft_check_dollar(t_format *form, t_arg *func, int i);
 
 
-char 				*ft_check_g(int exponenta, char *string, t_arg *func, long double nbr, int len);
+char 				*ft_check_g(int exponenta, char *string, t_arg *func, long double nbr);
 char 	*ft_del_zero(char *string, t_arg *func);
 char 	*ft_do_exponent_string(long double nbr, t_arg *func, int count);
 char 	*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
