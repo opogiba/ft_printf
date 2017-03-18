@@ -343,6 +343,10 @@ CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_join_symbols.c
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_nbrlen.c
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
@@ -359,14 +363,22 @@ CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_wchar.c
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
- /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handle_g.c
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
- /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handler_double.c
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
@@ -375,3 +387,7 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o
  /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
  /nfs/2016/o/opogiba/Documents/liba/libft.h
  /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o
+ /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+ /nfs/2016/o/opogiba/Documents/liba/libft.h
+ /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round_double.c

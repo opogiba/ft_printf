@@ -373,9 +373,6 @@
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_change_list.c">
 			<Option target="liba"/>
 		</Unit>
-		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_check_inf.c">
-			<Option target="liba"/>
-		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_choose_color.c">
 			<Option target="liba"/>
 		</Unit>
@@ -400,6 +397,9 @@
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_join_symbols.c">
 			<Option target="liba"/>
 		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_nbrlen.c">
+			<Option target="liba"/>
+		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_print.c">
 			<Option target="liba"/>
 		</Unit>
@@ -412,16 +412,28 @@
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_wchar.c">
 			<Option target="liba"/>
 		</Unit>
-		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handle_g.c">
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c">
 			<Option target="liba"/>
 		</Unit>
-		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handler_double.c">
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c">
+			<Option target="liba"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c">
+			<Option target="liba"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c">
+			<Option target="liba"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c">
 			<Option target="liba"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_parsing_znak_double.c">
 			<Option target="liba"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round.c">
+			<Option target="liba"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round_double.c">
 			<Option target="liba"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/CMakeLists.txt">

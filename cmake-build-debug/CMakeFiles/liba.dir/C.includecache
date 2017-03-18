@@ -442,6 +442,10 @@ limits.h
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_nbrlen.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
 /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_print.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
@@ -458,11 +462,19 @@ limits.h
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
-/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handle_g.c
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
-/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handler_double.c
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
@@ -471,6 +483,10 @@ limits.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
 /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round_double.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 

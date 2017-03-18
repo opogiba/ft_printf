@@ -2688,33 +2688,6 @@ printf/utilites/ft_change_list.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.s
 .PHONY : printf/utilites/ft_change_list.c.s
 
-printf/utilites/ft_check_inf.o: printf/utilites/ft_check_inf.c.o
-
-.PHONY : printf/utilites/ft_check_inf.o
-
-# target to build an object file
-printf/utilites/ft_check_inf.c.o:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o
-.PHONY : printf/utilites/ft_check_inf.c.o
-
-printf/utilites/ft_check_inf.i: printf/utilites/ft_check_inf.c.i
-
-.PHONY : printf/utilites/ft_check_inf.i
-
-# target to preprocess a source file
-printf/utilites/ft_check_inf.c.i:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.i
-.PHONY : printf/utilites/ft_check_inf.c.i
-
-printf/utilites/ft_check_inf.s: printf/utilites/ft_check_inf.c.s
-
-.PHONY : printf/utilites/ft_check_inf.s
-
-# target to generate assembly for a file
-printf/utilites/ft_check_inf.c.s:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.s
-.PHONY : printf/utilites/ft_check_inf.c.s
-
 printf/utilites/ft_choose_color.o: printf/utilites/ft_choose_color.c.o
 
 .PHONY : printf/utilites/ft_choose_color.o
@@ -2931,6 +2904,33 @@ printf/utilites/ft_join_symbols.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.s
 .PHONY : printf/utilites/ft_join_symbols.c.s
 
+printf/utilites/ft_nbrlen.o: printf/utilites/ft_nbrlen.c.o
+
+.PHONY : printf/utilites/ft_nbrlen.o
+
+# target to build an object file
+printf/utilites/ft_nbrlen.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o
+.PHONY : printf/utilites/ft_nbrlen.c.o
+
+printf/utilites/ft_nbrlen.i: printf/utilites/ft_nbrlen.c.i
+
+.PHONY : printf/utilites/ft_nbrlen.i
+
+# target to preprocess a source file
+printf/utilites/ft_nbrlen.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.i
+.PHONY : printf/utilites/ft_nbrlen.c.i
+
+printf/utilites/ft_nbrlen.s: printf/utilites/ft_nbrlen.c.s
+
+.PHONY : printf/utilites/ft_nbrlen.s
+
+# target to generate assembly for a file
+printf/utilites/ft_nbrlen.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.s
+.PHONY : printf/utilites/ft_nbrlen.c.s
+
 printf/utilites/ft_print.o: printf/utilites/ft_print.c.o
 
 .PHONY : printf/utilites/ft_print.o
@@ -3039,59 +3039,140 @@ printf/utilites/ft_wchar.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.s
 .PHONY : printf/utilites/ft_wchar.c.s
 
-printf/utilites_for_double/ft_handle_g.o: printf/utilites_for_double/ft_handle_g.c.o
+printf/utilites_for_double/ft_check_inf.o: printf/utilites_for_double/ft_check_inf.c.o
 
-.PHONY : printf/utilites_for_double/ft_handle_g.o
-
-# target to build an object file
-printf/utilites_for_double/ft_handle_g.c.o:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o
-.PHONY : printf/utilites_for_double/ft_handle_g.c.o
-
-printf/utilites_for_double/ft_handle_g.i: printf/utilites_for_double/ft_handle_g.c.i
-
-.PHONY : printf/utilites_for_double/ft_handle_g.i
-
-# target to preprocess a source file
-printf/utilites_for_double/ft_handle_g.c.i:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.i
-.PHONY : printf/utilites_for_double/ft_handle_g.c.i
-
-printf/utilites_for_double/ft_handle_g.s: printf/utilites_for_double/ft_handle_g.c.s
-
-.PHONY : printf/utilites_for_double/ft_handle_g.s
-
-# target to generate assembly for a file
-printf/utilites_for_double/ft_handle_g.c.s:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.s
-.PHONY : printf/utilites_for_double/ft_handle_g.c.s
-
-printf/utilites_for_double/ft_handler_double.o: printf/utilites_for_double/ft_handler_double.c.o
-
-.PHONY : printf/utilites_for_double/ft_handler_double.o
+.PHONY : printf/utilites_for_double/ft_check_inf.o
 
 # target to build an object file
-printf/utilites_for_double/ft_handler_double.c.o:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o
-.PHONY : printf/utilites_for_double/ft_handler_double.c.o
+printf/utilites_for_double/ft_check_inf.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o
+.PHONY : printf/utilites_for_double/ft_check_inf.c.o
 
-printf/utilites_for_double/ft_handler_double.i: printf/utilites_for_double/ft_handler_double.c.i
+printf/utilites_for_double/ft_check_inf.i: printf/utilites_for_double/ft_check_inf.c.i
 
-.PHONY : printf/utilites_for_double/ft_handler_double.i
+.PHONY : printf/utilites_for_double/ft_check_inf.i
 
 # target to preprocess a source file
-printf/utilites_for_double/ft_handler_double.c.i:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.i
-.PHONY : printf/utilites_for_double/ft_handler_double.c.i
+printf/utilites_for_double/ft_check_inf.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.i
+.PHONY : printf/utilites_for_double/ft_check_inf.c.i
 
-printf/utilites_for_double/ft_handler_double.s: printf/utilites_for_double/ft_handler_double.c.s
+printf/utilites_for_double/ft_check_inf.s: printf/utilites_for_double/ft_check_inf.c.s
 
-.PHONY : printf/utilites_for_double/ft_handler_double.s
+.PHONY : printf/utilites_for_double/ft_check_inf.s
 
 # target to generate assembly for a file
-printf/utilites_for_double/ft_handler_double.c.s:
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.s
-.PHONY : printf/utilites_for_double/ft_handler_double.c.s
+printf/utilites_for_double/ft_check_inf.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.s
+.PHONY : printf/utilites_for_double/ft_check_inf.c.s
+
+printf/utilites_for_double/ft_check_len.o: printf/utilites_for_double/ft_check_len.c.o
+
+.PHONY : printf/utilites_for_double/ft_check_len.o
+
+# target to build an object file
+printf/utilites_for_double/ft_check_len.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o
+.PHONY : printf/utilites_for_double/ft_check_len.c.o
+
+printf/utilites_for_double/ft_check_len.i: printf/utilites_for_double/ft_check_len.c.i
+
+.PHONY : printf/utilites_for_double/ft_check_len.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_check_len.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.i
+.PHONY : printf/utilites_for_double/ft_check_len.c.i
+
+printf/utilites_for_double/ft_check_len.s: printf/utilites_for_double/ft_check_len.c.s
+
+.PHONY : printf/utilites_for_double/ft_check_len.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_check_len.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.s
+.PHONY : printf/utilites_for_double/ft_check_len.c.s
+
+printf/utilites_for_double/ft_check_spec_g.o: printf/utilites_for_double/ft_check_spec_g.c.o
+
+.PHONY : printf/utilites_for_double/ft_check_spec_g.o
+
+# target to build an object file
+printf/utilites_for_double/ft_check_spec_g.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o
+.PHONY : printf/utilites_for_double/ft_check_spec_g.c.o
+
+printf/utilites_for_double/ft_check_spec_g.i: printf/utilites_for_double/ft_check_spec_g.c.i
+
+.PHONY : printf/utilites_for_double/ft_check_spec_g.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_check_spec_g.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.i
+.PHONY : printf/utilites_for_double/ft_check_spec_g.c.i
+
+printf/utilites_for_double/ft_check_spec_g.s: printf/utilites_for_double/ft_check_spec_g.c.s
+
+.PHONY : printf/utilites_for_double/ft_check_spec_g.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_check_spec_g.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.s
+.PHONY : printf/utilites_for_double/ft_check_spec_g.c.s
+
+printf/utilites_for_double/ft_del_zero.o: printf/utilites_for_double/ft_del_zero.c.o
+
+.PHONY : printf/utilites_for_double/ft_del_zero.o
+
+# target to build an object file
+printf/utilites_for_double/ft_del_zero.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o
+.PHONY : printf/utilites_for_double/ft_del_zero.c.o
+
+printf/utilites_for_double/ft_del_zero.i: printf/utilites_for_double/ft_del_zero.c.i
+
+.PHONY : printf/utilites_for_double/ft_del_zero.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_del_zero.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.i
+.PHONY : printf/utilites_for_double/ft_del_zero.c.i
+
+printf/utilites_for_double/ft_del_zero.s: printf/utilites_for_double/ft_del_zero.c.s
+
+.PHONY : printf/utilites_for_double/ft_del_zero.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_del_zero.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.s
+.PHONY : printf/utilites_for_double/ft_del_zero.c.s
+
+printf/utilites_for_double/ft_dot_to_float.o: printf/utilites_for_double/ft_dot_to_float.c.o
+
+.PHONY : printf/utilites_for_double/ft_dot_to_float.o
+
+# target to build an object file
+printf/utilites_for_double/ft_dot_to_float.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o
+.PHONY : printf/utilites_for_double/ft_dot_to_float.c.o
+
+printf/utilites_for_double/ft_dot_to_float.i: printf/utilites_for_double/ft_dot_to_float.c.i
+
+.PHONY : printf/utilites_for_double/ft_dot_to_float.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_dot_to_float.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.i
+.PHONY : printf/utilites_for_double/ft_dot_to_float.c.i
+
+printf/utilites_for_double/ft_dot_to_float.s: printf/utilites_for_double/ft_dot_to_float.c.s
+
+.PHONY : printf/utilites_for_double/ft_dot_to_float.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_dot_to_float.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.s
+.PHONY : printf/utilites_for_double/ft_dot_to_float.c.s
 
 printf/utilites_for_double/ft_parsing_znak_double.o: printf/utilites_for_double/ft_parsing_znak_double.c.o
 
@@ -3146,6 +3227,33 @@ printf/utilites_for_double/ft_round.s: printf/utilites_for_double/ft_round.c.s
 printf/utilites_for_double/ft_round.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.s
 .PHONY : printf/utilites_for_double/ft_round.c.s
+
+printf/utilites_for_double/ft_round_double.o: printf/utilites_for_double/ft_round_double.c.o
+
+.PHONY : printf/utilites_for_double/ft_round_double.o
+
+# target to build an object file
+printf/utilites_for_double/ft_round_double.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o
+.PHONY : printf/utilites_for_double/ft_round_double.c.o
+
+printf/utilites_for_double/ft_round_double.i: printf/utilites_for_double/ft_round_double.c.i
+
+.PHONY : printf/utilites_for_double/ft_round_double.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_round_double.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.i
+.PHONY : printf/utilites_for_double/ft_round_double.c.i
+
+printf/utilites_for_double/ft_round_double.s: printf/utilites_for_double/ft_round_double.c.s
+
+.PHONY : printf/utilites_for_double/ft_round_double.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_round_double.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.s
+.PHONY : printf/utilites_for_double/ft_round_double.c.s
 
 # Help Target
 help:
@@ -3441,9 +3549,6 @@ help:
 	@echo "... printf/utilites/ft_change_list.o"
 	@echo "... printf/utilites/ft_change_list.i"
 	@echo "... printf/utilites/ft_change_list.s"
-	@echo "... printf/utilites/ft_check_inf.o"
-	@echo "... printf/utilites/ft_check_inf.i"
-	@echo "... printf/utilites/ft_check_inf.s"
 	@echo "... printf/utilites/ft_choose_color.o"
 	@echo "... printf/utilites/ft_choose_color.i"
 	@echo "... printf/utilites/ft_choose_color.s"
@@ -3468,6 +3573,9 @@ help:
 	@echo "... printf/utilites/ft_join_symbols.o"
 	@echo "... printf/utilites/ft_join_symbols.i"
 	@echo "... printf/utilites/ft_join_symbols.s"
+	@echo "... printf/utilites/ft_nbrlen.o"
+	@echo "... printf/utilites/ft_nbrlen.i"
+	@echo "... printf/utilites/ft_nbrlen.s"
 	@echo "... printf/utilites/ft_print.o"
 	@echo "... printf/utilites/ft_print.i"
 	@echo "... printf/utilites/ft_print.s"
@@ -3480,18 +3588,30 @@ help:
 	@echo "... printf/utilites/ft_wchar.o"
 	@echo "... printf/utilites/ft_wchar.i"
 	@echo "... printf/utilites/ft_wchar.s"
-	@echo "... printf/utilites_for_double/ft_handle_g.o"
-	@echo "... printf/utilites_for_double/ft_handle_g.i"
-	@echo "... printf/utilites_for_double/ft_handle_g.s"
-	@echo "... printf/utilites_for_double/ft_handler_double.o"
-	@echo "... printf/utilites_for_double/ft_handler_double.i"
-	@echo "... printf/utilites_for_double/ft_handler_double.s"
+	@echo "... printf/utilites_for_double/ft_check_inf.o"
+	@echo "... printf/utilites_for_double/ft_check_inf.i"
+	@echo "... printf/utilites_for_double/ft_check_inf.s"
+	@echo "... printf/utilites_for_double/ft_check_len.o"
+	@echo "... printf/utilites_for_double/ft_check_len.i"
+	@echo "... printf/utilites_for_double/ft_check_len.s"
+	@echo "... printf/utilites_for_double/ft_check_spec_g.o"
+	@echo "... printf/utilites_for_double/ft_check_spec_g.i"
+	@echo "... printf/utilites_for_double/ft_check_spec_g.s"
+	@echo "... printf/utilites_for_double/ft_del_zero.o"
+	@echo "... printf/utilites_for_double/ft_del_zero.i"
+	@echo "... printf/utilites_for_double/ft_del_zero.s"
+	@echo "... printf/utilites_for_double/ft_dot_to_float.o"
+	@echo "... printf/utilites_for_double/ft_dot_to_float.i"
+	@echo "... printf/utilites_for_double/ft_dot_to_float.s"
 	@echo "... printf/utilites_for_double/ft_parsing_znak_double.o"
 	@echo "... printf/utilites_for_double/ft_parsing_znak_double.i"
 	@echo "... printf/utilites_for_double/ft_parsing_znak_double.s"
 	@echo "... printf/utilites_for_double/ft_round.o"
 	@echo "... printf/utilites_for_double/ft_round.i"
 	@echo "... printf/utilites_for_double/ft_round.s"
+	@echo "... printf/utilites_for_double/ft_round_double.o"
+	@echo "... printf/utilites_for_double/ft_round_double.i"
+	@echo "... printf/utilites_for_double/ft_round_double.s"
 .PHONY : help
 
 

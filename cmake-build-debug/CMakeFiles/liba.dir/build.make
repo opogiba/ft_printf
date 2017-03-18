@@ -1689,9 +1689,57 @@ CMakeFiles/liba.dir/libft/ft_toupper.c.o.provides: CMakeFiles/liba.dir/libft/ft_
 CMakeFiles/liba.dir/libft/ft_toupper.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_toupper.c.o
 
 
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.o: ../libft/ft_clean_2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/liba.dir/libft/ft_clean_2d.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_clean_2d.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c
+
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/libft/ft_clean_2d.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c > CMakeFiles/liba.dir/libft/ft_clean_2d.c.i
+
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/libft/ft_clean_2d.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c -o CMakeFiles/liba.dir/libft/ft_clean_2d.c.s
+
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires
+
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides
+
+CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o
+
+
+CMakeFiles/liba.dir/libft/ft_clean_str.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/libft/ft_clean_str.c.o: ../libft/ft_clean_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/liba.dir/libft/ft_clean_str.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_clean_str.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c
+
+CMakeFiles/liba.dir/libft/ft_clean_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/libft/ft_clean_str.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c > CMakeFiles/liba.dir/libft/ft_clean_str.c.i
+
+CMakeFiles/liba.dir/libft/ft_clean_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/libft/ft_clean_str.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c -o CMakeFiles/liba.dir/libft/ft_clean_str.c.s
+
+CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires
+
+CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides: CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides
+
+CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_clean_str.c.o
+
+
 CMakeFiles/liba.dir/libft/ft_itoa_base.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/libft/ft_itoa_base.c.o: ../libft/ft_itoa_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/liba.dir/libft/ft_itoa_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/liba.dir/libft/ft_itoa_base.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_itoa_base.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_itoa_base.c
 
 CMakeFiles/liba.dir/libft/ft_itoa_base.c.i: cmake_force
@@ -1715,7 +1763,7 @@ CMakeFiles/liba.dir/libft/ft_itoa_base.c.o.provides.build: CMakeFiles/liba.dir/l
 
 CMakeFiles/liba.dir/libft/ft_abs.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/libft/ft_abs.c.o: ../libft/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/liba.dir/libft/ft_abs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/liba.dir/libft/ft_abs.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_abs.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_abs.c
 
 CMakeFiles/liba.dir/libft/ft_abs.c.i: cmake_force
@@ -1739,7 +1787,7 @@ CMakeFiles/liba.dir/libft/ft_abs.c.o.provides.build: CMakeFiles/liba.dir/libft/f
 
 CMakeFiles/liba.dir/libft/ft_pow.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/libft/ft_pow.c.o: ../libft/ft_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/liba.dir/libft/ft_pow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/liba.dir/libft/ft_pow.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_pow.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_pow.c
 
 CMakeFiles/liba.dir/libft/ft_pow.c.i: cmake_force
@@ -1761,9 +1809,33 @@ CMakeFiles/liba.dir/libft/ft_pow.c.o.provides: CMakeFiles/liba.dir/libft/ft_pow.
 CMakeFiles/liba.dir/libft/ft_pow.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_pow.c.o
 
 
+CMakeFiles/liba.dir/libft/ft_join_char.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/libft/ft_join_char.c.o: ../libft/ft_join_char.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/liba.dir/libft/ft_join_char.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_join_char.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_join_char.c
+
+CMakeFiles/liba.dir/libft/ft_join_char.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/libft/ft_join_char.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/libft/ft_join_char.c > CMakeFiles/liba.dir/libft/ft_join_char.c.i
+
+CMakeFiles/liba.dir/libft/ft_join_char.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/libft/ft_join_char.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/libft/ft_join_char.c -o CMakeFiles/liba.dir/libft/ft_join_char.c.s
+
+CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires
+
+CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides: CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides
+
+CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_join_char.c.o
+
+
 CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o: ../printf/ft_handle_specifier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/ft_handle_specifier.c
 
 CMakeFiles/liba.dir/printf/ft_handle_specifier.c.i: cmake_force
@@ -1787,7 +1859,7 @@ CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o.provides.build: CMakeFiles/li
 
 CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o: ../printf/utilites/ft_cust.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_cust.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_cust.c.i: cmake_force
@@ -1811,7 +1883,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o.provides.build: CMakeFiles/liba.
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o: ../printf/parssing/ft_parsing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.i: cmake_force
@@ -1835,7 +1907,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o.provides.build: CMakeFiles/li
 
 CMakeFiles/liba.dir/printf/print/ft_print_int.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_int.c.o: ../printf/print/ft_print_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_int.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_int.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_int.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_int.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_int.c.i: cmake_force
@@ -1859,7 +1931,7 @@ CMakeFiles/liba.dir/printf/print/ft_print_int.c.o.provides.build: CMakeFiles/lib
 
 CMakeFiles/liba.dir/printf/ft_printf.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/ft_printf.c.o: ../printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/liba.dir/printf/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/liba.dir/printf/ft_printf.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/ft_printf.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/ft_printf.c
 
 CMakeFiles/liba.dir/printf/ft_printf.c.i: cmake_force
@@ -1883,7 +1955,7 @@ CMakeFiles/liba.dir/printf/ft_printf.c.o.provides.build: CMakeFiles/liba.dir/pri
 
 CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.o: ../printf/utilites/ft_utoa_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_utoa_base.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.i: cmake_force
@@ -1907,7 +1979,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_utoa_base.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o: ../printf/utilites/ft_join_symbols.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_join_symbols.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.i: cmake_force
@@ -1931,7 +2003,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o.provides.build: CMakeFil
 
 CMakeFiles/liba.dir/printf/print/ft_print_string.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_string.c.o: ../printf/print/ft_print_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_string.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_string.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_string.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_string.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_string.c.i: cmake_force
@@ -1955,7 +2027,7 @@ CMakeFiles/liba.dir/printf/print/ft_print_string.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/liba.dir/printf/print/ft_print_char.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_char.c.o: ../printf/print/ft_print_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_char.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_char.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_char.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_char.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_char.c.i: cmake_force
@@ -1979,7 +2051,7 @@ CMakeFiles/liba.dir/printf/print/ft_print_char.c.o.provides.build: CMakeFiles/li
 
 CMakeFiles/liba.dir/printf/print/ft_print_float.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_float.c.o: ../printf/print/ft_print_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_float.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_float.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_float.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_float.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_float.c.i: cmake_force
@@ -2003,7 +2075,7 @@ CMakeFiles/liba.dir/printf/print/ft_print_float.c.o.provides.build: CMakeFiles/l
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.o: ../printf/parssing/ft_parsing_accuracy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing_accuracy.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.i: cmake_force
@@ -2027,7 +2099,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing_accuracy.c.o.provides.build: CMak
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.o: ../printf/parssing/ft_parsing_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing_width.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.i: cmake_force
@@ -2051,7 +2123,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing_width.c.o.provides.build: CMakeFi
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.o: ../printf/parssing/ft_parsing_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing_flags.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.i: cmake_force
@@ -2075,7 +2147,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing_flags.c.o.provides.build: CMakeFi
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.o: ../printf/parssing/ft_parsing_length.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing_length.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.i: cmake_force
@@ -2099,7 +2171,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing_length.c.o.provides.build: CMakeF
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.o: ../printf/parssing/ft_parsing_specifier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing_specifier.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.i: cmake_force
@@ -2123,7 +2195,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing_specifier.c.o.provides.build: CMa
 
 CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.o: ../printf/utilites/ft_join_prefix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_join_prefix.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.i: cmake_force
@@ -2147,7 +2219,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_join_prefix.c.o.provides.build: CMakeFile
 
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.o: ../printf/utilites/ft_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_print.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_print.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_print.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.i: cmake_force
@@ -2171,7 +2243,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_print.c.o.provides.build: CMakeFiles/liba
 
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../printf/utilites/ft_wchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_wchar.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.i: cmake_force
@@ -2195,7 +2267,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o.provides.build: CMakeFiles/liba
 
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.o: ../printf/utilites/ft_join_symbol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_join_symbol.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.i: cmake_force
@@ -2219,7 +2291,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_join_symbol.c.o.provides.build: CMakeFile
 
 CMakeFiles/liba.dir/printf/utilites/ft_clean.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_clean.c.o: ../printf/utilites/ft_clean.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_clean.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_clean.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_clean.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_clean.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_clean.c.i: cmake_force
@@ -2243,7 +2315,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_clean.c.o.provides.build: CMakeFiles/liba
 
 CMakeFiles/liba.dir/printf/print/ft_print_memory.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_memory.c.o: ../printf/print/ft_print_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_memory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_memory.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_memory.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_memory.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_memory.c.i: cmake_force
@@ -2267,7 +2339,7 @@ CMakeFiles/liba.dir/printf/print/ft_print_memory.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o: ../printf/parssing/ft_parsing_brace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing_brace.c
 
 CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.i: cmake_force
@@ -2291,7 +2363,7 @@ CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o.provides.build: CMakeFi
 
 CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o: ../printf/utilites/ft_convert_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_convert_time.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.i: cmake_force
@@ -2315,7 +2387,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o.provides.build: CMakeFil
 
 CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o: ../printf/utilites/ft_put_apostrophe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_put_apostrophe.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.i: cmake_force
@@ -2339,7 +2411,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o.provides.build: CMakeF
 
 CMakeFiles/liba.dir/printf/print/ft_print_time.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_time.c.o: ../printf/print/ft_print_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_time.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_time.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_time.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_time.c.i: cmake_force
@@ -2361,33 +2433,9 @@ CMakeFiles/liba.dir/printf/print/ft_print_time.c.o.provides: CMakeFiles/liba.dir
 CMakeFiles/liba.dir/printf/print/ft_print_time.c.o.provides.build: CMakeFiles/liba.dir/printf/print/ft_print_time.c.o
 
 
-CMakeFiles/liba.dir/libft/ft_clean_str.c.o: CMakeFiles/liba.dir/flags.make
-CMakeFiles/liba.dir/libft/ft_clean_str.c.o: ../libft/ft_clean_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/liba.dir/libft/ft_clean_str.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_clean_str.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c
-
-CMakeFiles/liba.dir/libft/ft_clean_str.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/libft/ft_clean_str.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c > CMakeFiles/liba.dir/libft/ft_clean_str.c.i
-
-CMakeFiles/liba.dir/libft/ft_clean_str.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/libft/ft_clean_str.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_str.c -o CMakeFiles/liba.dir/libft/ft_clean_str.c.s
-
-CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires:
-
-.PHONY : CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires
-
-CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides: CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides.build
-.PHONY : CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides
-
-CMakeFiles/liba.dir/libft/ft_clean_str.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_clean_str.c.o
-
-
 CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o: ../printf/print/ft_print_nonprintable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_nonprintable.c
 
 CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.i: cmake_force
@@ -2411,7 +2459,7 @@ CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o.provides.build: CMake
 
 CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o: ../printf/utilites/ft_choose_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_choose_color.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.i: cmake_force
@@ -2435,7 +2483,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o.provides.build: CMakeFil
 
 CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o: ../printf/utilites/ft_choose_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_choose_fd.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.i: cmake_force
@@ -2457,33 +2505,9 @@ CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o.provides: CMakeFiles/liba.d
 CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o
 
 
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.o: CMakeFiles/liba.dir/flags.make
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.o: ../libft/ft_clean_2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/liba.dir/libft/ft_clean_2d.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_clean_2d.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c
-
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/libft/ft_clean_2d.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c > CMakeFiles/liba.dir/libft/ft_clean_2d.c.i
-
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/libft/ft_clean_2d.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/libft/ft_clean_2d.c -o CMakeFiles/liba.dir/libft/ft_clean_2d.c.s
-
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires:
-
-.PHONY : CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires
-
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides.build
-.PHONY : CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides
-
-CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o
-
-
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../printf/utilites/ft_change_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_change_list.c
 
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.i: cmake_force
@@ -2507,7 +2531,7 @@ CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o.provides.build: CMakeFile
 
 CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o: ../printf/print/ft_pointer_to_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/print/ft_pointer_to_int.c
 
 CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.i: cmake_force
@@ -2529,33 +2553,33 @@ CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o.provides: CMakeFiles/liba
 CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o.provides.build: CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o
 
 
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o: CMakeFiles/liba.dir/flags.make
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o: ../printf/utilites/ft_check_inf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_check_inf.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o: ../printf/utilites_for_double/ft_check_inf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c
 
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_check_inf.c > CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.i
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.i
 
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_check_inf.c -o CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.s
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_inf.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.s
 
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.requires:
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.requires:
 
-.PHONY : CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.requires
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.requires
 
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.provides: CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.requires
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.provides.build
-.PHONY : CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.provides
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.provides
 
-CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o
 
 
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o: CMakeFiles/liba.dir/flags.make
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o: ../printf/utilites_for_double/ft_round.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round.c
 
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.i: cmake_force
@@ -2577,52 +2601,28 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o.provides: CMakeFiles
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o
 
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o: CMakeFiles/liba.dir/flags.make
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o: ../printf/utilites_for_double/ft_handler_double.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handler_double.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../printf/utilites_for_double/ft_check_len.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handler_double.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.i
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.i
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handler_double.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.s
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_len.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.s
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.requires:
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.requires:
 
-.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.requires
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.requires
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.requires
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.provides.build
-.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.provides
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.provides
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o
-
-
-CMakeFiles/liba.dir/libft/ft_join_char.c.o: CMakeFiles/liba.dir/flags.make
-CMakeFiles/liba.dir/libft/ft_join_char.c.o: ../libft/ft_join_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/liba.dir/libft/ft_join_char.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/libft/ft_join_char.c.o   -c /nfs/2016/o/opogiba/Documents/liba/libft/ft_join_char.c
-
-CMakeFiles/liba.dir/libft/ft_join_char.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/libft/ft_join_char.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/libft/ft_join_char.c > CMakeFiles/liba.dir/libft/ft_join_char.c.i
-
-CMakeFiles/liba.dir/libft/ft_join_char.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/libft/ft_join_char.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/libft/ft_join_char.c -o CMakeFiles/liba.dir/libft/ft_join_char.c.s
-
-CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires:
-
-.PHONY : CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires
-
-CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides: CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides.build
-.PHONY : CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides
-
-CMakeFiles/liba.dir/libft/ft_join_char.c.o.provides.build: CMakeFiles/liba.dir/libft/ft_join_char.c.o
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o
 
 
 CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o: CMakeFiles/liba.dir/flags.make
@@ -2673,28 +2673,28 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o.provid
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o
 
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o: CMakeFiles/liba.dir/flags.make
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o: ../printf/utilites_for_double/ft_handle_g.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handle_g.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: ../printf/utilites_for_double/ft_del_zero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handle_g.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.i
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.i
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_handle_g.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.s
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_del_zero.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.s
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.requires:
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.requires:
 
-.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.requires
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.requires
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.requires
-	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.provides.build
-.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.provides
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.provides
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o
 
 
 CMakeFiles/liba.dir/printf/print/ft_print_double.c.o: CMakeFiles/liba.dir/flags.make
@@ -2743,6 +2743,102 @@ CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o.provides: CMakeF
 .PHONY : CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o.provides
 
 CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o.provides.build: CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o
+
+
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o: ../printf/utilites/ft_nbrlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_nbrlen.c
+
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_nbrlen.c > CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.i
+
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_nbrlen.c -o CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.s
+
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.requires
+
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.provides: CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.provides
+
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o
+
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../printf/utilites_for_double/ft_check_spec_g.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.i
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_check_spec_g.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.s
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.requires
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.provides
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o
+
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../printf/utilites_for_double/ft_dot_to_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.i
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_dot_to_float.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.s
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.requires
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.provides
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o
+
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o: CMakeFiles/liba.dir/flags.make
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o: ../printf/utilites_for_double/ft_round_double.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o   -c /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round_double.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round_double.c > CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.i
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_round_double.c -o CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.s
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.requires:
+
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.requires
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.provides: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.requires
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.provides.build
+.PHONY : CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.provides
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.provides.build: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o
 
 
 # Object files for target liba
@@ -2815,9 +2911,12 @@ liba_OBJECTS = \
 "CMakeFiles/liba.dir/libft/ft_swap.c.o" \
 "CMakeFiles/liba.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/liba.dir/libft/ft_toupper.c.o" \
+"CMakeFiles/liba.dir/libft/ft_clean_2d.c.o" \
+"CMakeFiles/liba.dir/libft/ft_clean_str.c.o" \
 "CMakeFiles/liba.dir/libft/ft_itoa_base.c.o" \
 "CMakeFiles/liba.dir/libft/ft_abs.c.o" \
 "CMakeFiles/liba.dir/libft/ft_pow.c.o" \
+"CMakeFiles/liba.dir/libft/ft_join_char.c.o" \
 "CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o" \
 "CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o" \
 "CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o" \
@@ -2843,22 +2942,23 @@ liba_OBJECTS = \
 "CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o" \
 "CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o" \
 "CMakeFiles/liba.dir/printf/print/ft_print_time.c.o" \
-"CMakeFiles/liba.dir/libft/ft_clean_str.c.o" \
 "CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o" \
 "CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o" \
 "CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o" \
-"CMakeFiles/liba.dir/libft/ft_clean_2d.c.o" \
 "CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o" \
 "CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o" \
-"CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o" \
+"CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o" \
 "CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o" \
-"CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o" \
-"CMakeFiles/liba.dir/libft/ft_join_char.c.o" \
+"CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o" \
 "CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o" \
 "CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o" \
-"CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o" \
+"CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o" \
 "CMakeFiles/liba.dir/printf/print/ft_print_double.c.o" \
-"CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o"
+"CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o" \
+"CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o" \
+"CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o" \
+"CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o" \
+"CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o"
 
 # External object files for target liba
 liba_EXTERNAL_OBJECTS =
@@ -2931,9 +3031,12 @@ liba: CMakeFiles/liba.dir/libft/ft_strtrim.c.o
 liba: CMakeFiles/liba.dir/libft/ft_swap.c.o
 liba: CMakeFiles/liba.dir/libft/ft_tolower.c.o
 liba: CMakeFiles/liba.dir/libft/ft_toupper.c.o
+liba: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o
+liba: CMakeFiles/liba.dir/libft/ft_clean_str.c.o
 liba: CMakeFiles/liba.dir/libft/ft_itoa_base.c.o
 liba: CMakeFiles/liba.dir/libft/ft_abs.c.o
 liba: CMakeFiles/liba.dir/libft/ft_pow.c.o
+liba: CMakeFiles/liba.dir/libft/ft_join_char.c.o
 liba: CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o
 liba: CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o
 liba: CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o
@@ -2959,25 +3062,26 @@ liba: CMakeFiles/liba.dir/printf/parssing/ft_parsing_brace.c.o
 liba: CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o
 liba: CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o
 liba: CMakeFiles/liba.dir/printf/print/ft_print_time.c.o
-liba: CMakeFiles/liba.dir/libft/ft_clean_str.c.o
 liba: CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o
 liba: CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o
 liba: CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o
-liba: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o
 liba: CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o
 liba: CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o
-liba: CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o
+liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o
 liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o
-liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o
-liba: CMakeFiles/liba.dir/libft/ft_join_char.c.o
+liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o
 liba: CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o
 liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o
-liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o
+liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o
 liba: CMakeFiles/liba.dir/printf/print/ft_print_double.c.o
 liba: CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o
+liba: CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o
+liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o
+liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o
+liba: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o
 liba: CMakeFiles/liba.dir/build.make
 liba: CMakeFiles/liba.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Linking C executable liba"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/o/opogiba/Documents/liba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Linking C executable liba"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/liba.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -3053,9 +3157,12 @@ CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_strtrim.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_swap.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_tolower.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_toupper.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_itoa_base.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_abs.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_pow.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/ft_handle_specifier.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_cust.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/parssing/ft_parsing.c.o.requires
@@ -3081,22 +3188,23 @@ CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/parssing/ft_parsing_bra
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_convert_time.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_put_apostrophe.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/print/ft_print_time.c.o.requires
-CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_clean_str.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/print/ft_print_nonprintable.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_choose_color.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_choose_fd.c.o.requires
-CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_clean_2d.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/print/ft_pointer_to_int.c.o.requires
-CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_check_inf.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_inf.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o.requires
-CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o.requires
-CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/libft/ft_join_char.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/print/ft_print_exponent.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o.requires
-CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/print/ft_print_double.c.o.requires
 CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/print/ft_print_float_or_exponent.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o.requires
+CMakeFiles/liba.dir/requires: CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o.requires
 
 .PHONY : CMakeFiles/liba.dir/requires
 

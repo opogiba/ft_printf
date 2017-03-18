@@ -44,15 +44,48 @@ $(FOLDER)ft_pow.c $(FOLDER)ft_itoa_base.c $(FOLDER)ft_clean_2d.c \
 $(FOLDER)ft_clean_str.c $(FOLDER)ft_join_char.c
 
 
-SRC2 = printf/ft_handle_specifier.c printf/utilites/ft_cust.c printf/print/ft_print_int.c \
-printf/ft_printf.c printf/utilites/ft_utoa_base.c printf/utilites/ft_join_symbols.c \
-printf/print/ft_print_string.c printf/print/ft_print_char.c printf/print/ft_print_float.c \
-printf/parssing/ft_parsing_accuracy.c printf/parssing/ft_parsing_width.c \
-printf/parssing/ft_parsing_flags.c printf/parssing/ft_parsing_length.c \
-printf/parssing/ft_parsing.c \
-printf/parssing/ft_parsing_specifier.c printf/utilites/ft_join_prefix.c \
-printf/utilites/ft_print.c printf/utilites/ft_wchar.c printf/utilites/ft_join_symbol.c printf/utilites/ft_clean.c printf/print/ft_print_memory.c printf/parssing/ft_parsing_brace.c printf/utilites/ft_convert_time.c printf/utilites/ft_put_apostrophe.c printf/print/ft_print_time.c libft/ft_clean_str.c printf/print/ft_print_nonprintable.c printf/utilites/ft_choose_color.c \
-printf/utilites/ft_choose_fd.c libft/ft_clean_2d.c printf/utilites/ft_change_list.c printf/print/ft_pointer_to_int.c printf/utilites/ft_check_inf.c printf/utilites_for_double/ft_round.c printf/utilites_for_double/ft_handler_double.c libft/ft_join_char.c printf/print/ft_print_exponent.c printf/utilites_for_double/ft_parsing_znak_double.c printf/utilites_for_double/ft_handle_g.c printf/print/ft_print_double.c printf/print/ft_print_float_or_exponent.c
+SRC2 =  printf/ft_handle_specifier.c \
+               printf/utilites/ft_cust.c \
+               printf/parssing/ft_parsing.c \
+               printf/print/ft_print_int.c \
+               printf/ft_printf.c \
+               printf/utilites/ft_utoa_base.c \
+               printf/utilites/ft_join_symbols.c \
+               printf/print/ft_print_string.c \
+               printf/print/ft_print_char.c \
+               printf/print/ft_print_float.c \
+               printf/parssing/ft_parsing_accuracy.c \
+               printf/parssing/ft_parsing_width.c \
+               printf/parssing/ft_parsing_flags.c \
+               printf/parssing/ft_parsing_length.c \
+               printf/parssing/ft_parsing_specifier.c \
+               printf/utilites/ft_join_prefix.c \
+               printf/utilites/ft_print.c \
+               printf/utilites/ft_wchar.c \
+               printf/utilites/ft_join_symbol.c \
+               printf/utilites/ft_clean.c \
+               printf/print/ft_print_memory.c \
+               printf/parssing/ft_parsing_brace.c \
+               printf/utilites/ft_convert_time.c \
+               printf/utilites/ft_put_apostrophe.c \
+               printf/print/ft_print_time.c \
+               printf/print/ft_print_nonprintable.c \
+               printf/utilites/ft_choose_color.c \
+               printf/utilites/ft_choose_fd.c \
+               printf/utilites/ft_change_list.c \
+               printf/print/ft_pointer_to_int.c \
+               printf/utilites_for_double/ft_check_inf.c \
+               printf/utilites_for_double/ft_round.c \
+               printf/utilites_for_double/ft_check_len.c \
+               printf/print/ft_print_exponent.c \
+               printf/utilites_for_double/ft_parsing_znak_double.c \
+               printf/utilites_for_double/ft_del_zero.c \
+               printf/print/ft_print_double.c \
+               printf/print/ft_print_float_or_exponent.c \
+               printf/utilites/ft_nbrlen.c \
+               printf/utilites_for_double/ft_check_spec_g.c \
+               printf/utilites_for_double/ft_dot_to_float.c \
+               printf/utilites_for_double/ft_round_double.c
 
 
 SRC = $(SRC1) $(SRC2)

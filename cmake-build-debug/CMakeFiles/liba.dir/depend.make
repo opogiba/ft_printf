@@ -343,6 +343,10 @@ CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites/ft_join_symbols.c.o: ../printf/utilites/ft_join_symbols.c
 
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites/ft_nbrlen.c.o: ../printf/utilites/ft_nbrlen.c
+
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites/ft_print.c.o: ../printf/utilites/ft_print.c
@@ -359,13 +363,21 @@ CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites/ft_wchar.c.o: ../printf/utilites/ft_wchar.c
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o: ../ft_printf.h
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o: ../libft.h
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handle_g.c.o: ../printf/utilites_for_double/ft_handle_g.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_len.c.o: ../printf/utilites_for_double/ft_check_len.c
 
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o: ../ft_printf.h
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o: ../libft.h
-CMakeFiles/liba.dir/printf/utilites_for_double/ft_handler_double.c.o: ../printf/utilites_for_double/ft_handler_double.c
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_check_spec_g.c.o: ../printf/utilites_for_double/ft_check_spec_g.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_del_zero.c.o: ../printf/utilites_for_double/ft_del_zero.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../printf/utilites_for_double/ft_dot_to_float.c
 
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o: ../libft.h
@@ -374,4 +386,8 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o: ../pr
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_round.c.o: ../printf/utilites_for_double/ft_round.c
+
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o: ../printf/utilites_for_double/ft_round_double.c
 
