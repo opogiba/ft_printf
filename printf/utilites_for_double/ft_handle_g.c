@@ -32,8 +32,8 @@ char 	*ft_check_g(int exponenta, char *string, t_arg *func, long double nbr)
 //	len = (int)ft_strlen(ft_itoa_base((long int)nbr, 10));
 //	func->acc = func->acc - len;
 //	func->acc = func->acc >= 0 ? func->acc : 0;
-	if(func->acc > 0)
-		func->acc -=1;
+//	if(func->acc > 0)
+//		func->acc -=1;
 
 
 	if(((exponenta < -4 ) || (exponenta >= func->acc && func->acc_ex == 1)))
@@ -43,7 +43,7 @@ char 	*ft_check_g(int exponenta, char *string, t_arg *func, long double nbr)
 	}
 	else
 	{
-		func->acc = acc;
+//		func->acc = acc;
 		return (NULL);
 	}
 }
