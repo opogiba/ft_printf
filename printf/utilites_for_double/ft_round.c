@@ -1,42 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_round.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/18 04:41:22 by opogiba           #+#    #+#             */
+/*   Updated: 2017/03/18 04:43:30 by opogiba          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../ft_printf.h"
-
-long double	ft_ceil(long double nbr)
-{
-	long double	i;
-
-	i = (long long)nbr;
-	if (nbr <= i)
-		return (i);
-	return (i + 1);
-}
-
-long double	ft_floor(long double nbr)
-{
-	long double	i;
-
-	i = (long long)nbr;
-	if (nbr >= i)
-		return (i);
-	return (i - 1);
-}
-
-long double	ft_r_nbr(long double nbr)
-{
-	if (nbr - ft_floor(nbr) == 0.5 && (long long)ft_floor(nbr) % 2 == 0)
-		return (ft_floor(nbr));
-	else if (ft_ceil(nbr) - nbr == 0.5)
-		return (ft_ceil(nbr));
-	if(nbr - ft_floor(nbr) >= 0.5)
-		return (ft_ceil(nbr));
-	else
-		return (ft_floor(nbr));
-}
 
 char		*ft_round(long double nbr, t_arg *func, char *str)
 {
-	int			i;
-	int			acc;
-	int 		j;
+	int	i;
+	int	acc;
+	int	j;
 
 	j = 0;
 	acc = func->acc;
@@ -45,7 +25,7 @@ char		*ft_round(long double nbr, t_arg *func, char *str)
 		nbr *= 10;
 		if (acc == 1)
 			nbr = ft_r_nbr(nbr);
-		i = (int) nbr;
+		i = (int)nbr;
 		str[j] = (char)(i + '0');
 		nbr = nbr - i;
 		acc--;
@@ -59,16 +39,16 @@ char		*ft_round_d(long double nbr, t_arg *func, char *str)
 {
 	int			p;
 	long long	nbr_l;
-	int i;
-	char *string;
-	char *tmp;
+	int			i;
+	char		*string;
+	char		*tmp;
 
 	i = 0;
 	p = func->acc;
 	while (p > 0 && p-- > 0)
 		nbr *= 10;
 	nbr_l = ft_r_nbr(nbr);
-	p = func->acc - ft_nbrlen(nbr_l, 10);
+	p = func->acc - ft_nbr_len(nbr_l, 10);
 	while (p > 0)
 	{
 		str[i++] = '0';

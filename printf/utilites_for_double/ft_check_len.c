@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_parsing_znak_double.c                           :+:      :+:    :+:   */
+/*   ft_handler_double.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/18 04:49:05 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/18 04:49:18 by opogiba          ###   ########.fr       */
+/*   Created: 2017/03/18 04:49:31 by opogiba           #+#    #+#             */
+/*   Updated: 2017/03/18 04:50:43 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../ft_printf.h"
 
-long double	ft_parsing_znak_double(long double nbr, t_arg *func)
+char	*ft_check_len(int len, char *finish)
 {
-	if (nbr < 0)
+	int i;
+
+	i = 0;
+	while (ft_isdigit(finish[i]))
+		i++;
+	while (i < len)
 	{
-		func->f_plus = 1;
-		nbr = -nbr;
+		finish[i] = '0';
+		i++;
 	}
-	if (func->f_plus == 1)
-		func->f_space = 0;
-	if (func->f_minus == 1)
-		func->f_zero = 0;
-	return (nbr);
+	return (finish);
 }
+
+

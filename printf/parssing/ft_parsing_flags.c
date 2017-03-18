@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/15 19:10:30 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/16 13:27:32 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/18 04:36:28 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,12 @@ void	ft_check_dollar(t_format *form, t_arg *func, int j)
 	if (j == 0)
 	{
 		i = form->inx;
-		while(ft_isdigit(form->str[i]))
+		while (ft_isdigit(form->str[i]))
 		{
 			i++;
 			func->f_dol_val = func->f_dol_val * 10 + (form->str[i] - '0');
 		}
-		if(form->str[i] == '$')
+		if (form->str[i] == '$')
 		{
 			func->f_dollar = 1;
 			form->inx += i;

@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/17 16:30:13 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/17 16:31:19 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/18 04:38:28 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_get_double(char *string, t_arg *func, long double nbr)
 
 void	ft_print_double(t_format *form, t_arg *func, va_list args)
 {
-	char *string;
+	char		*string;
 	long double	nbr;
 	int			minus;
 
@@ -51,4 +51,3 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 	ft_print(string, form);
 	free(string);
 }
-

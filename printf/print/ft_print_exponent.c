@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/17 16:32:47 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/17 16:36:26 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/18 04:39:19 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,11 +75,3 @@ char	*ft_print_exponent_double(char *string, t_arg *func, long double nbr)
 	string = ft_do_exponent_string(nbr, func, exponenta);
 	return (string);
 }
-
-
- // part from ft do string
-
-
-
-
-
