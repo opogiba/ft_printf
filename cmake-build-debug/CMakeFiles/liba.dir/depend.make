@@ -394,6 +394,10 @@ CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../ft_printf
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.o: ../printf/utilites_for_double/ft_dot_to_float.c
 
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_help_a.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_help_a.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/utilites_for_double/ft_help_a.c.o: ../printf/utilites_for_double/ft_help_a.c
+
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites_for_double/ft_parsing_znak_double.c.o: ../printf/utilites_for_double/ft_parsing_znak_double.c

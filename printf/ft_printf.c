@@ -67,3 +67,9 @@ int		ft_printf(const char *format, ...)
 	free(form);
 	return (i);
 }
+
+//int main(void)
+//{
+//	ft_printf("%x", 42);
+//	return (0);
+//}

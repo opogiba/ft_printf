@@ -490,6 +490,10 @@ unistd.h
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 
+/nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_help_a.c
+../../ft_printf.h
+/nfs/2016/o/opogiba/Documents/liba/ft_printf.h
+
 /nfs/2016/o/opogiba/Documents/liba/printf/utilites_for_double/ft_parsing_znak_double.c
 ../../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
