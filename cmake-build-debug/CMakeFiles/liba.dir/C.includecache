@@ -9,8 +9,6 @@
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
 stdarg.h
 -
-stdio.h
--
 libft.h
 /nfs/2016/o/opogiba/Documents/liba/libft.h
 wchar.h

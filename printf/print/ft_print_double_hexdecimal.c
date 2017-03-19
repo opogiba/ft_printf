@@ -18,16 +18,22 @@ char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 	final = ft_join_char(final, 0, '0');
 	if (func->chr == 'A')
 	{
-		final = ft_join_char(final, 0, 'X');
+		func->f_hash = 1;
+//		final = ft_join_char(final, 0, 'X');
 		func->chr = 'X';
 	}
 	else
-		final = ft_join_char(final, 0, 'x');
+	{
+		func->f_hash = 1;
+		func->chr = 'x';
+	}
+//		final = ft_join_char(final, 0, 'x');
 	if (nbr == 0.0)
 		final = ft_join_char(final, 0, '0');
 	else
 		final = ft_join_char(final, 0, '1');
-	final = ft_join_char(final, 0, '.');
+	if(nbr != 0.0 && func->acc != 0 && nbr != -0.0)
+		final = ft_join_char(final, 0, '.');
 	return (final);
 }
 
