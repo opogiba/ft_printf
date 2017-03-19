@@ -47,7 +47,7 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 	string = ft_get_double(string, func, nbr);
 	if (func->f_apos == 1)
 		string = ft_put_apostrophe(string, func);
-//	string = ft_width_int(func, string, minus, (int)ft_strlen(string));
+	string = ft_width_int(func, string, minus, (int)ft_strlen(string));
 	ft_print(string, form);
 	free(string);
 }
