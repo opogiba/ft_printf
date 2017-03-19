@@ -80,18 +80,18 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	while (func->acc)
 	{
 		nbr = nbr * 16;
-//		base = (int)nbr;
-//		nbr = nbr -(long double)base;
-//		if(base >= 10)
-//			second_part[j] = base - 10 + func->chr - 23;
-//		else
-//			second_part[j] = base +'0';
-//		j++;
+		base = (int)nbr;
+		nbr = nbr -(long double)base;
+		if(base >= 10)
+			second_part[j] = base - 10 + func->chr - 23;
+		else
+			second_part[j] = base +'0';
+		j++;
 		func->acc--;
 	}
 	second_part[j] = '\0';
-	if(nbr > 0.0 || nbr < 0.0)
-		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
+//	if(nbr > 0.0 || nbr < 0.0)
+//		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
 //	if ((int)ft_strlen(second_part) != i)
 //		ft_check_len(i, second_part);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
