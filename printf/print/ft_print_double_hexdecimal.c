@@ -72,7 +72,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		func->acc = ft_count_acc_for_a(nbr);
 		func->acc_ex = -1 ;
 	}
-	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1))
+	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1) && func->acc != 0)
 		fin = ft_join_char(fin, 0, '.');
 //	&& (nbr > 0.0 || nbr < 0.0)
 	base = (int)nbr;
