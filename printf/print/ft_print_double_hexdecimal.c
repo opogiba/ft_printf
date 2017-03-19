@@ -28,6 +28,9 @@ char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 	else
 		final = ft_join_char(final, 0, '1');
 	final = ft_join_char(final, 0, '.');
+	if(nbr != 0.0 && func->acc != 0)
+		final = ft_join_char(final, 0, '.');
+
 	return (final);
 }
 
