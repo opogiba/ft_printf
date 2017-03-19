@@ -56,6 +56,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	char *second_part;
 	char *third_part;
 	int i;
+	unsigned long long	base;
 
 	i = func->acc;
 //	first_part = NULL;
@@ -66,9 +67,10 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		func->acc = ft_count_acc_for_a(nbr);
 	while (func->acc && (nbr > 0.0 || nbr < 0.0))
 	{
+		base = (unsigned long long)nbr;
 		nbr = nbr * 16;
 		func->acc--;
-		second_part = ft_strjoin(second_part,ft_utoa_base((unsigned long long)(nbr), 16, func));
+		second_part = ft_strjoin(second_part,ft_utoa_base((unsigned long long)(nbr - (long double) base), 16, func));
 	}
 	if(nbr > 0.0 || nbr < 0.0)
 

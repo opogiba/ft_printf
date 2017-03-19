@@ -41,6 +41,7 @@ void	ft_format(t_format *form, t_arg *func, va_list args)
 			ft_putchar_fd(form->str[form->inx], form->fd);
 			form->format_written++;
 			form->inx++;
+
 		}
 	}
 	free(func);
