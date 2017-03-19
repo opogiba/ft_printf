@@ -113,6 +113,8 @@ char	*ft_print_hex_double(char *string, t_arg *func, double long nbr)
 	int					exponent;
 
 	exponent = 0;
+	if(func->acc_ex != 1)
+		func->acc_ex = 1;
 	nbr = ft_parsing_znak_double(nbr, func);
 	string = ft_do_first_hex_string(string, func, nbr);
 	base = (unsigned long long)nbr;
