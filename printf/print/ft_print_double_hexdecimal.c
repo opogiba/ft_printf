@@ -56,24 +56,33 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	char *second_part;
 	char *third_part;
 	int i;
-	unsigned long long	base;
+	int j;
+	int base;
+
+	j = 0;
 
 	i = func->acc;
 //	first_part = NULL;
-	second_part = ft_strnew(1);
+	second_part = ft_strnew(func->acc);
 	third_part = NULL;
 //	first_part = ft_do_first_hex_string(first_part, func, nbr);
 	if (func->acc_ex != 1)
 		func->acc = ft_count_acc_for_a(nbr);
-	while (func->acc && (nbr > 0.0 || nbr < 0.0))
+//	&& (nbr > 0.0 || nbr < 0.0)
+	while (func->acc )
 	{
-		base = (unsigned long long)nbr;
 		nbr = nbr * 16;
-		func->acc--;
-		second_part = ft_strjoin(second_part,ft_utoa_base((unsigned long long)(nbr - (long double) base), 16, func));
-	}
-	if(nbr > 0.0 || nbr < 0.0)
+		base = (int)nbr;
+		if(base >= 10)
+			second_part[j] = (char)(base - 10 + func->chr - 33);
+		else
+			second_part[j] = (char)(base +'0');
+		j++;
 
+		func->acc--;
+	}
+//	if(nbr > 0.0 || nbr < 0.0)
+//		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
 	if ((int)ft_strlen(second_part) != func->acc)
 		ft_check_len(i, second_part);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
