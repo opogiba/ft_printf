@@ -70,13 +70,12 @@ char		*ft_width_int(t_arg *func, char *str, int minus, int i)
 			str = ft_join_symbols(func, str,
 					func->width - (int)ft_strlen(str), '0');
 		}
-		str = ft_prefix_width(func, str);
 		if (i >= func->width && (func->f_plus == 1 || func->f_space == 1))
 			str = ft_join_prefix(str, func, minus, 0);
 		else
 			str = ft_join_prefix(str, func, minus, 1);
 	}
-//	str = ft_prefix_width(func, str);
+	str = ft_prefix_width(func, str);
 	if (func->f_zero == 1)
 		return (str);
 	if (func->f_plus == 1 || func->f_space == 1)

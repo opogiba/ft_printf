@@ -68,7 +68,7 @@ int		ft_printf(const char *format, ...)
 	free(form);
 	return (i);
 }
-//
+
 //int main(void)
 //{
 //	int w = 100, p = 6;
