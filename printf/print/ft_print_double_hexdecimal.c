@@ -52,17 +52,16 @@ char	*ft_do_last_hex_string(char *final, t_arg *func, int exponent)
 
 char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 {
-	char *first_part;
+//	char *first_part;
 	char *second_part;
 	char *third_part;
 	int i;
 
 	i = func->acc;
-	first_part = NULL;
+//	first_part = NULL;
 	second_part = ft_strnew(1);
 	third_part = NULL;
-	first_part = ft_do_first_hex_string(first_part, func, nbr);
-	nbr = nbr - 1.0;
+//	first_part = ft_do_first_hex_string(first_part, func, nbr);
 	if (func->acc_ex != 1)
 		func->acc = ft_count_acc_for_a(nbr);
 	while (func->acc && (nbr > 0.0 || nbr < 0.0))
@@ -75,12 +74,12 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	if ((int)ft_strlen(second_part) != func->acc)
 		ft_check_len(i, second_part);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
-	fin = ft_strjoin(first_part, second_part);
-	free(first_part);
-	first_part = fin;
+	fin = ft_strjoin(fin, second_part);
+//	free(first_part);
+//	first_part = fin;
 	free(second_part);
 	fin = ft_strjoin(fin, third_part);
-	free(first_part);
+//	free(first_part);
 	free(third_part);
 	return (fin);
 }
@@ -92,6 +91,7 @@ char	*ft_print_hex_double(char *string, t_arg *func, double long nbr)
 
 	exponent = 0;
 	nbr = ft_parsing_znak_double(nbr, func);
+	string = ft_do_first_hex_string(string, func, nbr);
 	base = (unsigned long long)nbr;
 	if (nbr < 1 && nbr != 0.0)
 	{
@@ -111,5 +111,5 @@ char	*ft_print_hex_double(char *string, t_arg *func, double long nbr)
 			exponent++;
 		}
 	}
-	return (ft_do_hex_d(string, func, nbr, exponent));
+	return (ft_do_hex_d(string, func, nbr - (long double)base, exponent));
 }
