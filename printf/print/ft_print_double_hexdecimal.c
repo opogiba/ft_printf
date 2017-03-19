@@ -18,8 +18,9 @@ char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 	final = ft_join_char(final, 0, '0');
 	if (func->chr == 'A')
 	{
-		final = ft_join_char(final, 0, 'X');
+//		final = ft_join_char(final, 0, 'X');
 		func->chr = 'X';
+		func->f_hash = 1;
 	}
 	else
 		final = ft_join_char(final, 0, 'x');
