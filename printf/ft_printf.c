@@ -87,5 +87,5 @@ int		ft_printf(const char *format, ...)
 //		ft_printf("%0*.*0A\n", w, p, nan[i]);
 //
 //	}
-}
+//}
 
