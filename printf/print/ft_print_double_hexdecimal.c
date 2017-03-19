@@ -62,19 +62,19 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 
 	j = 0;
 
-	i = func->acc;
+	i = 0;
 //	first_part = NULL;
 	second_part = (char*)malloc(sizeof(char) * i + 1);
 	third_part = NULL;
 //	first_part = ft_do_first_hex_string(first_part, func, nbr);
-	if (func->acc_ex != 1)
-		func->acc_ex = -1 ;
-	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1))
-		fin = ft_join_char(fin, 0, '.');
+//	if (func->acc_ex != 1)
+//		func->acc_ex = -1 ;
+//	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1))
+//		fin = ft_join_char(fin, 0, '.');
 	if (func->acc_ex != 1)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
-		func->acc_ex = -1 ;
+		func->acc_ex = 1 ;
 	}
 
 //	&& (nbr > 0.0 || nbr < 0.0)
@@ -93,6 +93,19 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		func->acc--;
 	}
 	second_part[j] = '\0';
+	j = ft_strlen(second_part);
+	i = j;
+	while(second_part[j])
+	{
+		if(second_part[j] == '0')
+		{
+			second_part[j] = '\0';
+			i--;
+		}
+		j--;
+	}
+	if (i != j)
+		fin = ft_join_char(fin, 0, '.');
 //	if(nbr > 0.0 || nbr < 0.0)
 //		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
 //	if ((int)ft_strlen(second_part) != i)
