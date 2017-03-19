@@ -72,8 +72,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 //	&& (nbr > 0.0 || nbr < 0.0)
 	base = (int)nbr;
 	nbr = nbr - (long double)base;
-
-	while (func->acc )
+	while (func->acc)
 	{
 		nbr = nbr * 16;
 		base = (int)nbr;
@@ -85,6 +84,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		j++;
 		func->acc--;
 	}
+	second_part[j] = '\0';
 //	if(nbr > 0.0 || nbr < 0.0)
 //		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
 //	if ((int)ft_strlen(second_part) != i)
