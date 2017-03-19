@@ -108,7 +108,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		}
 		j--;
 	}
-	if (i != j && l > 0)
+	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
 //	if(nbr > 0.0 || nbr < 0.0)
 //		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
