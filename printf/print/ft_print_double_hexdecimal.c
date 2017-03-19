@@ -91,7 +91,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	j = 0;
 	int l =func->acc;
 	i = 0;
-	second_part = (char*)malloc(sizeof(char) * i + 1);
+	second_part = (char*)malloc(sizeof(char) * l + 1);
 //	second_part = ft_do_fraction_string(second_part, func, nbr);
 	third_part = NULL;
 	if (func->acc_ex != 1)
@@ -119,17 +119,13 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	i = j;
 	if(func ->acc_ex != -1)
 		i--;
-
-
 	while (j  >=  0 && func->acc_ex == -1)
 	{
-
 		if (second_part[j] != '0')
 		{
 			i--;
 			break;
 		}
-
 		if (second_part[j] == '0')
 		{
 			second_part[j] = '\0';
