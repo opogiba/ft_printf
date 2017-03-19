@@ -3282,6 +3282,33 @@ printf/utilites_for_double/ft_dot_to_float.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_dot_to_float.c.s
 .PHONY : printf/utilites_for_double/ft_dot_to_float.c.s
 
+printf/utilites_for_double/ft_help_a.o: printf/utilites_for_double/ft_help_a.c.o
+
+.PHONY : printf/utilites_for_double/ft_help_a.o
+
+# target to build an object file
+printf/utilites_for_double/ft_help_a.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_help_a.c.o
+.PHONY : printf/utilites_for_double/ft_help_a.c.o
+
+printf/utilites_for_double/ft_help_a.i: printf/utilites_for_double/ft_help_a.c.i
+
+.PHONY : printf/utilites_for_double/ft_help_a.i
+
+# target to preprocess a source file
+printf/utilites_for_double/ft_help_a.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_help_a.c.i
+.PHONY : printf/utilites_for_double/ft_help_a.c.i
+
+printf/utilites_for_double/ft_help_a.s: printf/utilites_for_double/ft_help_a.c.s
+
+.PHONY : printf/utilites_for_double/ft_help_a.s
+
+# target to generate assembly for a file
+printf/utilites_for_double/ft_help_a.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/utilites_for_double/ft_help_a.c.s
+.PHONY : printf/utilites_for_double/ft_help_a.c.s
+
 printf/utilites_for_double/ft_parsing_znak_double.o: printf/utilites_for_double/ft_parsing_znak_double.c.o
 
 .PHONY : printf/utilites_for_double/ft_parsing_znak_double.o
@@ -3723,6 +3750,9 @@ help:
 	@echo "... printf/utilites_for_double/ft_dot_to_float.o"
 	@echo "... printf/utilites_for_double/ft_dot_to_float.i"
 	@echo "... printf/utilites_for_double/ft_dot_to_float.s"
+	@echo "... printf/utilites_for_double/ft_help_a.o"
+	@echo "... printf/utilites_for_double/ft_help_a.i"
+	@echo "... printf/utilites_for_double/ft_help_a.s"
 	@echo "... printf/utilites_for_double/ft_parsing_znak_double.o"
 	@echo "... printf/utilites_for_double/ft_parsing_znak_double.i"
 	@echo "... printf/utilites_for_double/ft_parsing_znak_double.s"

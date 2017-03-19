@@ -18,6 +18,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	char *third_part;
 	char *tmp;
 
+	second_part = NULL;
 	third_part = NULL;
 	if (func->acc_ex != 1)
 	{

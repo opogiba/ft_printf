@@ -125,6 +125,7 @@ set(SOURCE_FILES
         printf/utilites_for_double/ft_round_double.c
         printf/print/ft_print_double_hexdecimal.c
         printf/utilites_for_double/ft_count_acc_for_a.c
-        printf/print/print_bx.c)
+        printf/print/print_bx.c
+        printf/utilites_for_double/ft_help_a.c)
 
 add_executable(liba ${SOURCE_FILES})
