@@ -75,21 +75,11 @@ char 	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
 	return (final);
 }
 
-char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
+char 	*ft_del_zer(char *second_part, char *fin, t_arg *func)
 {
-	char *second_part;
-	char *third_part;
 	int i;
 	int j;
-	char *tmp;
 
-	third_part = NULL;
-	if (func->acc_ex != 1)
-	{
-		func->acc = ft_count_acc_for_a(nbr);
-		func->acc_ex = -1 ;
-	}
-	second_part = ft_do_fraction_string(second_part, func, nbr);
 	j = ft_strlen(second_part) - 1;
 	i = j;
 	if(func ->acc_ex != -1)
@@ -110,6 +100,48 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	}
 	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
+	return (fin);
+
+}
+
+char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
+{
+	char *second_part;
+	char *third_part;
+//	int i;
+//	int j;
+	char *tmp;
+
+	third_part = NULL;
+	if (func->acc_ex != 1)
+	{
+		func->acc = ft_count_acc_for_a(nbr);
+		func->acc_ex = -1 ;
+	}
+	second_part = ft_do_fraction_string(second_part, func, nbr);
+
+
+//	j = ft_strlen(second_part) - 1;
+//	i = j;
+//	if(func ->acc_ex != -1)
+//		i--;
+//	while (j  >=  0 && func->acc_ex == -1)
+//	{
+//		if (second_part[j] != '0')
+//		{
+//			i--;
+//			break;
+//		}
+//		if (second_part[j] == '0')
+//		{
+//			second_part[j] = '\0';
+//			i--;
+//		}
+//		j--;
+//	}
+//	if (i != j)
+//		fin = ft_join_char(fin, 0, '.');
+	fin = ft_del_zer(second_part, fin, func);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
 	tmp = fin;
 	fin = ft_strjoin(fin, second_part);
