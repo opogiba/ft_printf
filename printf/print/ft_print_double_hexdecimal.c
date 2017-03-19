@@ -74,7 +74,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	if (func->acc_ex != 1)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
-		func->acc_ex = 1 ;
+		func->acc_ex = -1 ;
 	}
 
 //	&& (nbr > 0.0 || nbr < 0.0)
@@ -93,9 +93,9 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		func->acc--;
 	}
 	second_part[j] = '\0';
-	j = ft_strlen(second_part);
+	j = ft_strlen(second_part) - 1;
 	i = j;
-	while(second_part[j])
+	while(j >= 0)
 	{
 		if(second_part[j] == '0')
 		{
@@ -104,7 +104,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		}
 		j--;
 	}
-	if (i != j)
+	if (i != j && func->acc > 0)
 		fin = ft_join_char(fin, 0, '.');
 //	if(nbr > 0.0 || nbr < 0.0)
 //		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
