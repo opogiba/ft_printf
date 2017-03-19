@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/29 19:48:04 by opogiba           #+#    #+#             */
-/*   Updated: 2016/12/06 21:16:48 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/19 21:59:49 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,13 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-long long 	ft_abs(long long nbr);
-double ft_pow(double base, double ex);
-char		*ft_itoa_base(long long value, int base);
-char 	*ft_clean_str(char *nbr);
-void	ft_clean_2dchar(char **nbr);
-char	*ft_join_char(char *str, int flag, char c);
-int			ft_atoi_base(const char *str, const int base);
-
+long long			ft_abs(long long nbr);
+double				ft_pow(double base, double ex);
+char				*ft_itoa_base(long long value, int base);
+char				*ft_clean_str(char *nbr);
+void				ft_clean_2dchar(char **nbr);
+char				*ft_join_char(char *str, int flag, char c);
+int					ft_atoi_base(const char *str, const int base);
 void				ft_putnbr(int n);
 void				ft_strclr(char *s);
 void				ft_putchar(char c);
@@ -102,5 +101,5 @@ size_t				ft_strlen(const char *str);
 size_t				ft_strlcat(char *dst, const char *src, size_t size);
 t_list				*ft_lstnew(void const *content, size_t	content_size);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
-int		ft_printf(const char *format, ...);
+int					ft_printf(const char *format, ...);
 #endif

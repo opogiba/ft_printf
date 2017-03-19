@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/18 20:24:52 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/19 20:44:21 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/19 21:52:43 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	if (func->acc_ex != 1)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
-		func->acc_ex = -1 ;
+		func->acc_ex = -1;
 	}
 	second_part = ft_do_fraction_string(second_part, func, nbr);
 	fin = ft_del_z(second_part, fin, func);

@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/18 04:49:05 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/18 05:20:15 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/19 21:53:57 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 long double	ft_parsing_znak_double(long double nbr, t_arg *func)
 {
-	if (nbr < 0 )
+	if (nbr < 0)
 	{
 		func->f_plus = 1;
 		nbr = -nbr;

@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/03 16:53:03 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/17 16:28:47 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/19 22:29:55 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,6 @@ int		ft_printf(const char *format, ...)
 	va_list		args;
 	t_arg		*func;
 	t_format	*form;
-
 	int			i;
 
 	form = (t_format *)malloc(sizeof(t_format));
@@ -68,24 +67,3 @@ int		ft_printf(const char *format, ...)
 	free(form);
 	return (i);
 }
-
-//int main(void)
-//{
-//	int w = 15, p = 6;
-//	double nan1[] = {-0.0, 0.0 / 0.0, -0.0 / 0.0, 0.0 / -0.0, 1.0 / 0.0, -1.0 / 0.0, 1.0 / 0.0};
-//	double nan[] = {14.34, 2.0, 2434124.1234, -123455343546745344567655676545678765434567865643457.43564456, 0.0000000000000000000000000000123124234234, 0.1, 5.0, 0.5, 1.0, 2.0, 100.3, 2.3};
-//
-//	for (int i = 0; i < (sizeof(nan1) / sizeof(nan1[0])); i++)
-//	{
-//		printf("% 0*.*0a\n", w, p, nan1[i]);
-//		ft_printf("% 0*.*0a\n", w, p, nan1[i]);
-//	}
-//	printf("\n");
-//	for (int i = 0; i < (sizeof(nan) / sizeof(nan[0])); i++)
-//	{
-//		printf("%0*.*0A\n", w, p, nan[i]);
-//		ft_printf("%0*.*0A\n", w, p, nan[i]);
-//
-//	}
-//}
-

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_help_a.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/19 21:54:12 by opogiba           #+#    #+#             */
+/*   Updated: 2017/03/19 21:56:37 by opogiba          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../ft_printf.h"
 
 char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
@@ -36,7 +48,7 @@ char	*ft_do_last_hex_string(char *final, t_arg *func, int exponent)
 	return (final);
 }
 
-char 	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
+char	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
 {
 	int i;
 	int base;
@@ -47,15 +59,15 @@ char 	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
 	final = (char*)malloc(sizeof(char) * i + 1);
 	base = (int)nbr;
 	nbr = nbr - (long double)base;
-	while (func->acc )
+	while (func->acc)
 	{
 		nbr = nbr * 16;
 		base = (int)nbr;
-		nbr = nbr -(long double)base;
-		if(base >= 10)
+		nbr = nbr - (long double)base;
+		if (base >= 10)
 			final[j] = base - 10 + func->chr - 23;
 		else
-			final[j] = base +'0';
+			final[j] = base + '0';
 		j++;
 		func->acc--;
 	}
@@ -63,21 +75,21 @@ char 	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
 	return (final);
 }
 
-char 	*ft_del_z(char *second_part, char *fin, t_arg *func)
+char	*ft_del_z(char *second_part, char *fin, t_arg *func)
 {
 	int i;
 	int j;
 
 	j = (int)ft_strlen(second_part) - 1;
 	i = j;
-	if(func ->acc_ex != -1)
+	if (func->acc_ex != -1)
 		i--;
-	while (j  >=  0 && func->acc_ex == -1)
+	while (j >= 0 && func->acc_ex == -1)
 	{
 		if (second_part[j] != '0')
 		{
 			i--;
-			break;
+			break ;
 		}
 		if (second_part[j] == '0')
 		{
