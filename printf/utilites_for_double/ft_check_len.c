@@ -26,6 +26,5 @@ char	*ft_check_len(int len, char *finish)
 	}
 	return (finish);
 }
--0x1.0p+31
--0x1p+31
+
 
