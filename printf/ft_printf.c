@@ -51,6 +51,7 @@ int		ft_printf(const char *format, ...)
 	va_list		args;
 	t_arg		*func;
 	t_format	*form;
+
 	int			i;
 
 	form = (t_format *)malloc(sizeof(t_format));

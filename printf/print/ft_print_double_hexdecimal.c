@@ -24,8 +24,6 @@ char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 		final = ft_join_char(final, 0, '0');
 	else if (nbr > 0.0 || nbr < 0.0)
 		final = ft_join_char(final, 0, '1');
-//	if(nbr != 0.0 && func->acc_ex == 1)
-//		final = ft_join_char(final, 0, '.');
 	return (final);
 }
 
@@ -52,7 +50,6 @@ char	*ft_do_last_hex_string(char *final, t_arg *func, int exponent)
 
 char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 {
-//	char *first_part;
 	char *second_part;
 	char *third_part;
 	int i;
@@ -63,22 +60,14 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	j = 0;
 	int l =func->acc;
 	i = 0;
-//	first_part = NULL;
 	second_part = (char*)malloc(sizeof(char) * i + 1);
 	third_part = NULL;
-//	first_part = ft_do_first_hex_string(first_part, func, nbr);
-//	if (func->acc_ex != 1)
-//		func->acc_ex = -1 ;
-//	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1))
-//		fin = ft_join_char(fin, 0, '.');
 	if (func->acc_ex != 1)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
 		l = func->acc;
 		func->acc_ex = -1 ;
 	}
-
-//	&& (nbr > 0.0 || nbr < 0.0)
 	base = (int)nbr;
 	nbr = nbr - (long double)base;
 	while (func->acc)
@@ -97,27 +86,25 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	j = ft_strlen(second_part) - 1;
 	i = j;
 
-
-		while (j >= l)
+	while (j >= 0)
+	{
+		if (second_part[j] != '0')
 		{
-				if (second_part[j] != '0') {
-				i--;
-				break;
-			}
-
-			if (second_part[j] == '0') {
-				second_part[j] = '\0';
-				i--;
-			}
-			j--;
+			i--;
+			break;
 		}
+
+		if (second_part[j] == '0' && l < j)
+		{
+			second_part[j] = '\0';
+			i--;
+		}
+		j--;
+	}
 
 	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
-//	if(nbr > 0.0 || nbr < 0.0)
-//		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
-//	if ((int)ft_strlen(second_part) != i)
-//		ft_check_len(i, second_part);
+
 	third_part = ft_do_last_hex_string(third_part, func, exp);
 	tmp = fin;
 	fin = ft_strjoin(fin, second_part);
