@@ -5,9 +5,9 @@ static char	*ft_prefix_width(t_arg *func, char *str)
 
 	if (func->chr == 'X')
 			str = ft_join_symbols(func, str, 1, 'X');
-	if (func->chr == 'x')
+	else if (func->chr == 'x')
 			str = ft_join_symbols(func, str, 1, 'x');
-	if (func->chr == 'b')
+	else if (func->chr == 'b')
 			str = ft_join_symbols(func, str, 1, 'b');
 	str = ft_join_symbols(func, str, 1, '0');
 	return (str);

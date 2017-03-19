@@ -68,7 +68,7 @@ int		ft_printf(const char *format, ...)
 	free(form);
 	return (i);
 }
-//
+
 //int main(void)
 //{
 //	int w = 100, p = 6;
@@ -80,13 +80,13 @@ int		ft_printf(const char *format, ...)
 //		printf("%0*.*0a\n", w, p, nan1[i]);
 //		ft_printf("%0*.*0a\n", w, p, nan1[i]);
 //	}
-////	printf("\n");
-////	for (int i = 0; i < (sizeof(nan) / sizeof(nan[0])); i++)
-////	{
-////		printf("%0*.*0a\n", w, p, nan[i]);
-////		ft_printf("%0*.*0a\n", w, p, nan[i]);
+//	printf("\n");
+//	for (int i = 0; i < (sizeof(nan) / sizeof(nan[0])); i++)
+//	{
+//		printf("%0*.*0a\n", w, p, nan[i]);
+//		ft_printf("%0*.*0a\n", w, p, nan[i]);
 //
-////	}
-////	ft_printf("%a", 0.0);
+//	}
+//	ft_printf("%a", 0.0);
 //}
 
