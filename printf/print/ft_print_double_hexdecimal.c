@@ -61,7 +61,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	char *tmp;
 
 	j = 0;
-
+	int l =func->acc;
 	i = 0;
 //	first_part = NULL;
 	second_part = (char*)malloc(sizeof(char) * i + 1);
@@ -74,6 +74,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	if (func->acc_ex != 1)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
+		l = func->acc;
 		func->acc_ex = -1 ;
 	}
 
@@ -104,7 +105,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		}
 		j--;
 	}
-	if (i != j && func->acc > 0)
+	if (i != j && l > 0)
 		fin = ft_join_char(fin, 0, '.');
 //	if(nbr > 0.0 || nbr < 0.0)
 //		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
