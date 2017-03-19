@@ -60,18 +60,23 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	char *first_part;
 	char *second_part;
 	char *third_part;
+	int i;
+
+	i = func->acc;
 
 	first_part = NULL;
 	third_part = NULL;
 	first_part = ft_do_first_hex_string(first_part, func, nbr);
 	if (func->acc_ex != 1)
 		func->acc = ft_count_acc_for_a(nbr);
-	while (func->acc)
+	while (func->acc && (nbr > 0.0 || nbr < 0.0))
 	{
 		nbr = nbr * 16;
 		func->acc--;
 	}
 	second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
+	if ((int)ft_strlen(second_part) != func->acc)
+		ft_check_len(i, second_part);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
 	fin = ft_strjoin(first_part, second_part);
 	free(first_part);
