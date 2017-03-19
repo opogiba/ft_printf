@@ -24,8 +24,8 @@
 //	return (str);
 //}
 
-char		*ft_print_bx(char *str, int minus, t_arg *func)
-{
+//char		*ft_print_bx(char *str, int minus, t_arg *func)
+//{
 //	char	*first_part;
 //	int		i;
 //
@@ -46,8 +46,8 @@ char		*ft_print_bx(char *str, int minus, t_arg *func)
 //		first_part = ft_join_prefix(first_part, func, minus, 0);
 //	str = ft_strjoin(first_part, str);
 //	free(first_part);
-	return (str);
-}
+//	return (str);
+//}
 //static char	*ft_prefix_width(t_arg *func, char *str)
 //{
 //	if (func->f_hash == 1 &&
