@@ -75,11 +75,10 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		base = (int)nbr;
 		nbr = nbr -(long double)base;
 		if(base >= 10)
-			second_part[j] = (char)(base - 10 + func->chr - 33);
+			second_part[j] = (char)(base - 10 + 'a');
 		else
 			second_part[j] = (char)(base +'0');
 		j++;
-
 		func->acc--;
 	}
 //	if(nbr > 0.0 || nbr < 0.0)
