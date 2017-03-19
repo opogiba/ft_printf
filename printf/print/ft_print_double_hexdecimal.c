@@ -98,6 +98,9 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	i = j;
 	while(j >= 0 )
 	{
+		if(second_part[j] != '0')
+			break;
+
 		if(second_part[j] == '0')
 		{
 			second_part[j] = '\0';
