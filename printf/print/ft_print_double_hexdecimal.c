@@ -98,7 +98,7 @@ char 	*ft_del_zer(char *second_part, char *fin, t_arg *func)
 		}
 		j--;
 	}
-	if (j == 0)
+	if (j != 0)
 		fin = ft_join_char(fin, 0, '.');
 	return (fin);
 }
