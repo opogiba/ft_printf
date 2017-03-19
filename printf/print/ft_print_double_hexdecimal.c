@@ -86,23 +86,22 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	j = ft_strlen(second_part) - 1;
 	i = j;
 
-	while (j  >=  0)
-
-	{
-
-		if (second_part[j] != '0')
-		{
-			i--;
-			break;
-		}
-
-		if (second_part[j] == '0')
-		{
-			second_part[j] = '\0';
-			i--;
-		}
-		j--;
-	}
+//	while (j  >=  0)
+//	{
+//
+//		if (second_part[j] != '0')
+//		{
+//			i--;
+//			break;
+//		}
+//
+//		if (second_part[j] == '0')
+//		{
+//			second_part[j] = '\0';
+//			i--;
+//		}
+//		j--;
+//	}
 
 	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
