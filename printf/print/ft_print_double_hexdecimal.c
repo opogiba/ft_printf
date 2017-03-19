@@ -94,7 +94,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 			break;
 		}
 
-		if (second_part[j] == '0' && l < j)
+		if (second_part[j] == '0')
 		{
 			second_part[j] = '\0';
 			i--;
