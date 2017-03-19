@@ -19,8 +19,6 @@ long double	ft_parsing_znak_double(long double nbr, t_arg *func)
 		func->f_plus = 1;
 		nbr = -nbr;
 	}
-	if(nbr == -0.0)
-		func->f_plus = 1;
 	if (func->f_plus == 1)
 		func->f_space = 0;
 	if (func->f_minus == 1)
