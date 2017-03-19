@@ -152,22 +152,22 @@ char	*ft_print_hex_double(char *string, t_arg *func, double long nbr)
 	exponent = 0;
 	nbr = ft_parsing_znak_double(nbr, func);
 	string = ft_do_first_hex_string(string, func, nbr);
-	base = (unsigned long long)nbr;
+//	base = (unsigned long long)nbr;
 	if (nbr < 1 && nbr != 0.0)
 	{
-		while (base != 1)
+		while ((unsigned long long)nbr != 1)
 		{
 			nbr = nbr * 2;
-			base = (unsigned long long)nbr;
+//			base = (unsigned long long)nbr;
 			exponent--;
 		}
 	}
 	if (nbr >= 2 && nbr != 0.0)
 	{
-		while (base != 1)
+		while ((unsigned long long)nbr != 1)
 		{
 			nbr = nbr / 2;
-			base = (unsigned long long)nbr;
+//			base = (unsigned long long)nbr;
 			exponent++;
 		}
 	}
