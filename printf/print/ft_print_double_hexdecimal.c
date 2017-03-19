@@ -66,7 +66,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
 		l = func->acc;
-		func->acc_ex = -1 ;
+		func->acc_ex = 1 ;
 	}
 	base = (int)nbr;
 	nbr = nbr - (long double)base;
@@ -86,7 +86,8 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	j = ft_strlen(second_part) - 1;
 	i = j;
 
-	while (j >0)
+	while (j  >=  0)
+
 	{
 
 		if (second_part[j] != '0')
