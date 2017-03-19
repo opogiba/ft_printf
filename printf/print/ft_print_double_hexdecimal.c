@@ -103,7 +103,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 //		j--;
 //	}
 
-	if (i != j)
+	if (j == l)
 		fin = ft_join_char(fin, 0, '.');
 
 	third_part = ft_do_last_hex_string(third_part, func, exp);
