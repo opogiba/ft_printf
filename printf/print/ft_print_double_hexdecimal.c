@@ -89,15 +89,12 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	char *tmp;
 
 	j = 0;
-	int l =func->acc;
-	i = 0;
-	second_part = (char*)malloc(sizeof(char) * l + 1);
+	second_part = (char*)malloc(sizeof(char) * func->acc + 1);
 //	second_part = ft_do_fraction_string(second_part, func, nbr);
 	third_part = NULL;
 	if (func->acc_ex != 1)
 	{
 		func->acc = ft_count_acc_for_a(nbr);
-		l = func->acc;
 		func->acc_ex = -1 ;
 	}
 	base = (int)nbr;
@@ -135,7 +132,6 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	}
 	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
-
 	third_part = ft_do_last_hex_string(third_part, func, exp);
 	tmp = fin;
 	fin = ft_strjoin(fin, second_part);
