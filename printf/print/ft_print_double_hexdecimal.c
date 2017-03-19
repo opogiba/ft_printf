@@ -133,7 +133,6 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 		}
 		j--;
 	}
-
 	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
 
@@ -141,13 +140,10 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	tmp = fin;
 	fin = ft_strjoin(fin, second_part);
 	free(tmp);
-//	free(first_part);
-//	first_part = fin;
 	free(second_part);
 	tmp = fin;
 	fin = ft_strjoin(fin, third_part);
 	free(tmp);
-//	free(first_part);
 	free(third_part);
 	return (fin);
 }
