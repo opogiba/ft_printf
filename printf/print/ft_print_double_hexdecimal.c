@@ -48,53 +48,17 @@ char	*ft_do_last_hex_string(char *final, t_arg *func, int exponent)
 	return (final);
 }
 
-//char 	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
-//{
-//	int i;
-//	int base;
-//	int j;
-//
-//	j = 0;
-//	i = func->acc;
-//	final = (char*)malloc(sizeof(char) * i + 1);
-//
-//	base = (int)nbr;
-//	nbr = nbr - (long double)base;
-//	while (func->acc )
-//	{
-//		nbr = nbr * 16;
-//		base = (int)nbr;
-//		nbr = nbr -(long double)base;
-//		if(base >= 10)
-//			final[j] = base - 10 + func->chr - 23;
-//		else
-//			final[j] = base +'0';
-//		j++;
-//		func->acc--;
-//	}
-//	final[j] = '\0';
-//	return (final);
-//}
-
-char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
+char 	*ft_do_fraction_string(char *final, t_arg *func, long double nbr)
 {
-	char *second_part;
-	char *third_part;
 	int i;
-	int j;
 	int base;
-	char *tmp;
+	int j;
 
 	j = 0;
-	int l =func->acc;
-	i = 0;
-	second_part = (char*)malloc(sizeof(char) * l + 1);
-//	second_part = ft_do_fraction_string(second_part, func, nbr);
-	third_part = NULL;
-	if (func->acc_ex != 1)
+	i = func->acc;
+	final = (char*)malloc(sizeof(char) * i + 1);
 	{
 		func->acc = ft_count_acc_for_a(nbr);
-		l = func->acc;
 		func->acc_ex = -1 ;
 	}
 	base = (int)nbr;
@@ -105,13 +69,52 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 		base = (int)nbr;
 		nbr = nbr -(long double)base;
 		if(base >= 10)
-			second_part[j] = base - 10 + func->chr - 23;
+			final[j] = base - 10 + func->chr - 23;
 		else
-			second_part[j] = base +'0';
+			final[j] = base +'0';
 		j++;
 		func->acc--;
 	}
-	second_part[j] = '\0';
+	final[j] = '\0';
+	return (final);
+}
+
+char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
+{
+	char *second_part;
+	char *third_part;
+	int i;
+	int j;
+//	int base;
+	char *tmp;
+
+//	j = 0;
+	int l =func->acc;
+	i = 0;
+//	second_part = (char*)malloc(sizeof(char) * i + 1);
+	second_part = ft_do_fraction_string(second_part, func, nbr);
+	third_part = NULL;
+	if (func->acc_ex != 1)
+	{
+		func->acc = ft_count_acc_for_a(nbr);
+		l = func->acc;
+		func->acc_ex = -1 ;
+	}
+//	base = (int)nbr;
+//	nbr = nbr - (long double)base;
+//	while (func->acc )
+//	{
+//		nbr = nbr * 16;
+//		base = (int)nbr;
+//		nbr = nbr -(long double)base;
+//		if(base >= 10)
+//			second_part[j] = base - 10 + func->chr - 23;
+//		else
+//			second_part[j] = base +'0';
+//		j++;
+//		func->acc--;
+//	}
+//	second_part[j] = '\0';
 	j = ft_strlen(second_part) - 1;
 	i = j;
 	if(func ->acc_ex != -1)
