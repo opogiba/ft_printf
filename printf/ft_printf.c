@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/03 16:53:03 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/19 22:29:55 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/19 23:26:30 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,9 +67,3 @@ int		ft_printf(const char *format, ...)
 	free(form);
 	return (i);
 }
-
-//int main(void)
-//{
-//	ft_printf("%x", 42);
-//	return (0);
-//}
