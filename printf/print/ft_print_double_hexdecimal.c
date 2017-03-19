@@ -65,6 +65,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	i = func->acc;
 
 	first_part = NULL;
+	second_part = ft_strdup("");
 	third_part = NULL;
 	first_part = ft_do_first_hex_string(first_part, func, nbr);
 	if (func->acc_ex != 1)
