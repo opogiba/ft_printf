@@ -87,7 +87,8 @@ SRC2 =  printf/ft_handle_specifier.c \
                printf/utilites_for_double/ft_dot_to_float.c \
                printf/utilites_for_double/ft_round_double.c \
                printf/print/ft_print_double_hexdecimal.c \
-               printf/utilites_for_double/ft_count_acc_for_a.c
+               printf/utilites_for_double/ft_count_acc_for_a.c \
+               printf/print/print_bx.c
 
 
 SRC = $(SRC1) $(SRC2)

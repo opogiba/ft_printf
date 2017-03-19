@@ -2715,6 +2715,33 @@ printf/print/ft_print_time.c.s:
 	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/ft_print_time.c.s
 .PHONY : printf/print/ft_print_time.c.s
 
+printf/print/print_bx.o: printf/print/print_bx.c.o
+
+.PHONY : printf/print/print_bx.o
+
+# target to build an object file
+printf/print/print_bx.c.o:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/print_bx.c.o
+.PHONY : printf/print/print_bx.c.o
+
+printf/print/print_bx.i: printf/print/print_bx.c.i
+
+.PHONY : printf/print/print_bx.i
+
+# target to preprocess a source file
+printf/print/print_bx.c.i:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/print_bx.c.i
+.PHONY : printf/print/print_bx.c.i
+
+printf/print/print_bx.s: printf/print/print_bx.c.s
+
+.PHONY : printf/print/print_bx.s
+
+# target to generate assembly for a file
+printf/print/print_bx.c.s:
+	$(MAKE) -f CMakeFiles/liba.dir/build.make CMakeFiles/liba.dir/printf/print/print_bx.c.s
+.PHONY : printf/print/print_bx.c.s
+
 printf/utilites/ft_change_list.o: printf/utilites/ft_change_list.c.o
 
 .PHONY : printf/utilites/ft_change_list.o
@@ -3633,6 +3660,9 @@ help:
 	@echo "... printf/print/ft_print_time.o"
 	@echo "... printf/print/ft_print_time.i"
 	@echo "... printf/print/ft_print_time.s"
+	@echo "... printf/print/print_bx.o"
+	@echo "... printf/print/print_bx.i"
+	@echo "... printf/print/print_bx.s"
 	@echo "... printf/utilites/ft_change_list.o"
 	@echo "... printf/utilites/ft_change_list.i"
 	@echo "... printf/utilites/ft_change_list.s"

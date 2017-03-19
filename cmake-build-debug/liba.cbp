@@ -376,6 +376,9 @@
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/print/ft_print_time.c">
 			<Option target="liba"/>
 		</Unit>
+		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/print/print_bx.c">
+			<Option target="liba"/>
+		</Unit>
 		<Unit filename="/nfs/2016/o/opogiba/Documents/liba/printf/utilites/ft_change_list.c">
 			<Option target="liba"/>
 		</Unit>

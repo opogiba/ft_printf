@@ -120,5 +120,6 @@ char 				*ft_del_zero(char *string, t_arg *func);
 char 				*ft_do_exponent_string(long double nbr, t_arg *func, int exponent);
 char 				*ft_print_float_or_exponent(char *string, t_arg *func, long double nbr);
 int 				ft_count_acc_for_a(long double nbr);
+char *ft_print_bx(char *str, int minus, t_arg *func);
 
 

@@ -118,6 +118,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/liba.dir/printf/utilites_for_double/ft_round_double.c.o"
   "CMakeFiles/liba.dir/printf/print/ft_print_double_hexdecimal.c.o"
   "CMakeFiles/liba.dir/printf/utilites_for_double/ft_count_acc_for_a.c.o"
+  "CMakeFiles/liba.dir/printf/print/print_bx.c.o"
   "liba.pdb"
   "liba"
 )

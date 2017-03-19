@@ -310,6 +310,10 @@ CMakeFiles/liba.dir/printf/print/ft_print_time.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/print/ft_print_time.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/print/ft_print_time.c.o: ../printf/print/ft_print_time.c
 
+CMakeFiles/liba.dir/printf/print/print_bx.c.o: ../ft_printf.h
+CMakeFiles/liba.dir/printf/print/print_bx.c.o: ../libft.h
+CMakeFiles/liba.dir/printf/print/print_bx.c.o: ../printf/print/print_bx.c
+
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../ft_printf.h
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../libft.h
 CMakeFiles/liba.dir/printf/utilites/ft_change_list.c.o: ../printf/utilites/ft_change_list.c
