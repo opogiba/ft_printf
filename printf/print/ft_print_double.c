@@ -15,7 +15,12 @@
 char	*ft_get_double(char *string, t_arg *func, long double nbr)
 {
 	if ((string = ft_check_inf(nbr, func)) != NULL)
+	{
+		func->f_zero = 0;
+		func->f_plus = 0;
+		func->f_space = 0;
 		return (string);
+	}
 	if (func->chr == 'f' || func->chr == 'F')
 		string = ft_print_float(string, func, nbr);
 	else if (func->chr == 'e' || func->chr == 'E')
