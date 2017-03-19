@@ -79,7 +79,7 @@ char	*ft_do_last_hex_string(char *final, t_arg *func, int exponent)
 //	return (final);
 //}
 
-char 	*ft_del_zero(char *second_part, t_arg *func)
+char 	*ft_de_zero(char *second_part, t_arg *func)
 {
 	int len;
 //	int check;
@@ -155,7 +155,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 ////	}
 //	if (i != j)
 //		fin = ft_join_char(fin, 0, '.');
-	second_part = ft_del_zero(second_part, func);
+	second_part = ft_de_zero(second_part, func);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
 	tmp = fin;
 	fin = ft_strjoin(fin, second_part);
