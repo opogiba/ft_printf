@@ -15,17 +15,14 @@
 char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 {
 	final = ft_strdup("");
-//	final = ft_join_char(final, 0, '0');
-	func->f_hash = 1;
+	final = ft_join_char(final, 0, '0');
 	if (func->chr == 'A')
 	{
-//		final = ft_join_char(final, 0, 'X');
+		final = ft_join_char(final, 0, 'X');
 		func->chr = 'X';
 	}
 	else
-		func->chr = 'x';
-
-//		final = ft_join_char(final, 0, 'x');
+		final = ft_join_char(final, 0, 'x');
 	if (nbr == 0.0 && func->acc_ex == 0)
 		final = ft_join_char(final, 0, '0');
 	else
