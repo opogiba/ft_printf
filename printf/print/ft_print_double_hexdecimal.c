@@ -69,7 +69,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 //	first_part = ft_do_first_hex_string(first_part, func, nbr);
 	if (func->acc_ex != 1)
 		func->acc_ex = -1 ;
-	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1) && func->acc != 0)
+	if(nbr != 0.0 && (func->acc_ex == 1 || func->acc_ex == -1))
 		fin = ft_join_char(fin, 0, '.');
 	if (func->acc_ex != 1)
 	{
