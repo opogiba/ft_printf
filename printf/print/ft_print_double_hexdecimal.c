@@ -23,9 +23,9 @@ char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 	}
 	else
 		final = ft_join_char(final, 0, 'x');
-	if ((nbr > 0.0 || nbr < 0.0 )&& func->acc_ex == 0)
+	if (nbr == 0.0 && func->acc_ex == 0)
 		final = ft_join_char(final, 0, '0');
-	else if(nbr > 0.0 || nbr < 0.0 )
+	else
 		final = ft_join_char(final, 0, '1');
 //	final = ft_join_char(final, 0, '.');
 	if(nbr != 0.0)
@@ -74,7 +74,8 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 		nbr = nbr * 16;
 		func->acc--;
 	}
-	second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
+	if(nbr > 0.0 || nbr < 0.0)
+		second_part = ft_utoa_base((unsigned long long)(nbr), 16, func);
 	if ((int)ft_strlen(second_part) != func->acc)
 		ft_check_len(i, second_part);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
