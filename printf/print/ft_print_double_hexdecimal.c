@@ -92,23 +92,23 @@ char	*ft_do_hex_d(char *fin, t_arg *func, long double nbr, int exp)
 	second_part = ft_do_fraction_string(second_part, func, nbr);
 	j = ft_strlen(second_part) - 1;
 	i = j;
-//	if(func ->acc_ex != -1)
-//		i--;
+	if(func ->acc_ex != -1)
+		i--;
 	while (j  >=  0 && func->acc_ex == -1)
 	{
 		if (second_part[j] != '0')
 		{
-//			i--;
+			i--;
 			break;
 		}
 		if (second_part[j] == '0')
 		{
 			second_part[j] = '\0';
-//			i--;
+			i--;
 		}
 		j--;
 	}
-	if (j == 0)
+	if (i != j)
 		fin = ft_join_char(fin, 0, '.');
 	third_part = ft_do_last_hex_string(third_part, func, exp);
 	tmp = fin;
