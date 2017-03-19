@@ -6,7 +6,7 @@
 /*   By: opogiba <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/17 16:30:13 by opogiba           #+#    #+#             */
-/*   Updated: 2017/03/18 04:38:28 by opogiba          ###   ########.fr       */
+/*   Updated: 2017/03/19 20:41:38 by opogiba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ void	ft_print_double(t_format *form, t_arg *func, va_list args)
 		nbr = (long double)va_arg(args, long double);
 	else
 		nbr = (double)va_arg(args, double);
-	minus = nbr < 0  ? -1 : 1;
+	minus = nbr < 0 ? -1 : 1;
 	string = NULL;
 	string = ft_get_double(string, func, nbr);
 	if (func->f_apos == 1)
