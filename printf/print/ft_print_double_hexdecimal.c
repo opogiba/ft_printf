@@ -58,6 +58,7 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	int i;
 	int j;
 	int base;
+	char *tmp;
 
 	j = 0;
 
@@ -69,6 +70,9 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	if (func->acc_ex != 1)
 		func->acc = ft_count_acc_for_a(nbr);
 //	&& (nbr > 0.0 || nbr < 0.0)
+	base = (int)nbr;
+	nbr = nbr - (long double)base;
+
 	while (func->acc )
 	{
 		nbr = nbr * 16;
@@ -86,11 +90,15 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 //	if ((int)ft_strlen(second_part) != i)
 //		ft_check_len(i, second_part);
 	third_part = ft_do_last_hex_string(third_part, func, exp);
+	tmp = fin;
 	fin = ft_strjoin(fin, second_part);
+	free(tmp);
 //	free(first_part);
 //	first_part = fin;
 	free(second_part);
+	tmp = fin;
 	fin = ft_strjoin(fin, third_part);
+	free(tmp);
 //	free(first_part);
 	free(third_part);
 	return (fin);
@@ -123,5 +131,5 @@ char	*ft_print_hex_double(char *string, t_arg *func, double long nbr)
 			exponent++;
 		}
 	}
-	return (ft_do_hex_d(string, func, nbr - (long double)base, exponent));
+	return (ft_do_hex_d(string, func, nbr, exponent));
 }
