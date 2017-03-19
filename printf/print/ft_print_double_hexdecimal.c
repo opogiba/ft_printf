@@ -82,8 +82,8 @@ char 	*ft_del_zer(char *second_part, char *fin, t_arg *func)
 
 	j = (int)ft_strlen(second_part) - 1;
 	i = j;
-//	if(func ->acc_ex != -1)
-//		i--;
+	if(func ->acc_ex != -1)
+		i--;
 	while (j  >=  0 && func->acc_ex == -1)
 	{
 		if (second_part[j] != '0')
@@ -99,8 +99,7 @@ char 	*ft_del_zer(char *second_part, char *fin, t_arg *func)
 		j--;
 	}
 	if (j == 0)
-		return (fin);
-	fin = ft_join_char(fin, 0, '.');
+		fin = ft_join_char(fin, 0, '.');
 	return (fin);
 }
 
