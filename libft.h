@@ -102,4 +102,5 @@ size_t				ft_strlen(const char *str);
 size_t				ft_strlcat(char *dst, const char *src, size_t size);
 t_list				*ft_lstnew(void const *content, size_t	content_size);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
+int		ft_printf(const char *format, ...);
 #endif

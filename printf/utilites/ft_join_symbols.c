@@ -18,6 +18,7 @@ char	*ft_join_symbols(t_arg *func, char *str, int i, char c)
 	char	*tmp;
 	int		j;
 
+	zero = NULL;
 	j = 0;
 	if (i <= 0)
 		return (str);
