@@ -14,21 +14,15 @@
 
 char	*ft_do_first_hex_string(char *final, t_arg *func, double long nbr)
 {
-	final = ft_strnew(1);
+	final = ft_strdup("");
 	func->f_hash = 1;
-//	final = ft_join_char(final, 0, '0');
 	if (func->chr == 'A')
-	{
-//		final = ft_join_char(final, 0, 'X');
 		func->chr = 'X';
-//		func->f_hash = 1;
-	}
 	else
 		func->chr = 'x';
-//		final = ft_join_char(final, 0, 'x');
 	if (nbr == 0.0)
 		final = ft_join_char(final, 0, '0');
-	else
+	else if (nbr > 0.0 || nbr < 0.0)
 		final = ft_join_char(final, 0, '1');
 	if(nbr != 0.0)
 		final = ft_join_char(final, 0, '.');
@@ -39,7 +33,7 @@ char	*ft_do_last_hex_string(char *final, t_arg *func, int exponent)
 {
 	char	*tmp;
 
-	final = ft_strnew(1);
+	final = ft_strdup("");
 	if (func->chr == 'X')
 		final = ft_join_char(final, 0, 'P');
 	else
@@ -64,7 +58,6 @@ char	*ft_do_hex_d(char *fin, t_arg *func, double long nbr, int exp)
 	int i;
 
 	i = func->acc;
-
 	first_part = NULL;
 	second_part = ft_strnew(1);
 	third_part = NULL;

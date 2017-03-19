@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
-#include <limits.h>
 
 void	ft_check_percent(t_format *form, t_arg *func, va_list args, va_list tmp)
 {
@@ -89,4 +88,4 @@ int		ft_printf(const char *format, ...)
 //	}
 //	ft_printf("%a", 0.0);
 //}
-//
+

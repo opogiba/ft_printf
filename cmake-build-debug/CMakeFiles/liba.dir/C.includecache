@@ -329,8 +329,6 @@ unistd.h
 /nfs/2016/o/opogiba/Documents/liba/printf/ft_printf.c
 ../ft_printf.h
 /nfs/2016/o/opogiba/Documents/liba/ft_printf.h
-limits.h
--
 
 /nfs/2016/o/opogiba/Documents/liba/printf/parssing/ft_parsing.c
 ../../ft_printf.h
